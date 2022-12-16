@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=danasquest
+POSTGRES_USER=DcukbugJldoBsIfcGHwmHLjMLtVuVxMe
+POSTGRES_PASSWORD=0uw5fupfiod6XHOqoFlLYD3FRrovjjkvI1c8ubQ4DbC9QpV6cesz8CyNB94btGty
