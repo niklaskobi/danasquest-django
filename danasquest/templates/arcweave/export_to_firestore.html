@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Export to Firestore{% endblock %}
+
+{% block content %}
+  <h3>Upload Arcweave Files</h3>
+{#  <form class="theme-form" action="" method="POST">#}
+  <form enctype="multipart/form-data" method="post" action="">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+{#    <label for="projectsettings">Select project_settings.json:</label>#}
+{#    <input type="file" id="projectsettings" name="projectsettings">#}
+
+    <div>
+{#      <input type="hidden" name="init_page" value="{{ init_page }}">#}
+      <button id="button-submit" type="submit">Submit</button>
+    </div>
+
+  </form>
+
+{% endblock content %}

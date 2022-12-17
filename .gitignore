@@ -276,3 +276,5 @@ danasquest/media/
 .env
 .envs/*
 !.envs/.local/
+
+diy_instructions

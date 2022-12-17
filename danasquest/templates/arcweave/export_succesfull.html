@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Export to Firestore{% endblock %}
+
+{% block content %}
+  <h3>{{ message }}</h3>
+  <form class="theme-form" action="" method="POST">
+    {% csrf_token %}
+    <div>
+      <a class="btn btn-primary" href={{button_link.link}}>{{ button_link.label }}</a>
+    </div>
+
+  </form>
+
+{% endblock content %}
