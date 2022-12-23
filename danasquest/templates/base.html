@@ -53,7 +53,10 @@
                 <a class="nav-link" href="{% url 'about' %}">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{% url 'firestore-upload' %}">Upload</a>
+                <a class="nav-link" href="{% url 'firestore_upload' %}">Upload</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{% url 'view_uploaded_chunks' %}">View Uploaded</a>
               </li>
               {% if request.user.is_authenticated %}
                 <li class="nav-item">
