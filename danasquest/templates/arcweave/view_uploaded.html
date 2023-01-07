@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Export to Firestore{% endblock %}
+
+{% block content %}
+  <h3> Uploaded Data</h3>
+  <hr>
+  <h5> {{ data.name }}</h5>
+  {% for board_key, board_data in data.boards.items %}
+    <div>
+      <label>{{ board_data.name }}</label>
+    </div>
+  {% endfor %}
+
+{% endblock content %}

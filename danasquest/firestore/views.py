@@ -30,7 +30,12 @@ def firestore_upload(request):
 
 
 def view_uploaded_chunks(request):
-    read_from_firestore()
+    data = read_from_firestore()
+    print(f'Data from firestore document: {data}')
+
+    return render(request, 'arcweave/view_uploaded.html', {'data': data})
+
+
 
 
 def get_settings_file(request):

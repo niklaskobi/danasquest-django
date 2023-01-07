@@ -1,6 +1,7 @@
 import firebase_admin
 from firebase_admin import firestore
-from  google.cloud.storage.blob import Blob
+import pyrebase
+import os
 
 COLLECTION_NAME = u'arcweave'
 DOCUMENT_NAME = u'development-nk'
@@ -30,11 +31,18 @@ def read_from_firestore():
     initialize_app()
     db = firestore.client()
 
+    # read all documents from collection
     # users_ref = db.collection(COLLECTION_NAME)
     # docs = users_ref.stream()
-    #
     # for doc in docs:
+    #     test = doc.to_dict()
     #     print(f'{doc.id} => {doc.to_dict()}')
 
     doc_ref = db.collection(COLLECTION_NAME).document(DOCUMENT_NAME)
-    print(f'Data from firestore document: {doc_ref.to_dict()}')
+    doc = doc_ref.get()
+    return doc.to_dict()["data"]
+
+def upload_to_cloud_storage():
+    # WIP:
+    firebase = pyrebase.initialize_app()
+    storage = firebase.storage()
