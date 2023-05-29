@@ -1,6 +1,5 @@
 from django.apps import AppConfig
 
-
-class FirestoreConfig(AppConfig):
+class ArcweaveConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'firestore'
+    name = 'danasquest.firestore'

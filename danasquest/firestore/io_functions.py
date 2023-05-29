@@ -1,7 +1,7 @@
 import firebase_admin
 from firebase_admin import firestore
 import pyrebase
-import os
+from google.cloud import storage
 
 COLLECTION_NAME = u'arcweave'
 DOCUMENT_NAME = u'development-nk'
@@ -42,7 +42,32 @@ def read_from_firestore():
     doc = doc_ref.get()
     return doc.to_dict()["data"]
 
-def upload_to_cloud_storage():
-    # WIP:
-    firebase = pyrebase.initialize_app()
-    storage = firebase.storage()
+def upload_to_cloud_storage(name, content):
+    # Initialize
+    client = storage.Client()
+    bucket = client.get_bucket('danasquest-1d1c2.appspot.com')
+
+    # Download
+    # blob = bucket.get_blob('project_settings.json')
+    # print(blob.download_as_string())
+
+    # Upload
+    # blob2 = bucket.blob('remote/path/storage.txt')
+    # blob2.upload_from_filename(filename='/local/path.txt')
+
+def upload_blob_from_memory(file_path, destination_blob_name):
+    """Uploads a file to the bucket."""
+
+    # The ID of your GCS bucket
+    bucket_name = "danasquest-1d1c2.appspot.com"
+
+    # Initialize
+    storage_client = storage.Client()
+    bucket = storage_client.bucket(bucket_name)
+
+    blob = bucket.blob(file_path)
+    blob.upload_from_filename(filename=file_path)
+
+    print(
+        f"Uploaded file: {file_path} to bucket: {bucket_name} and blob: {destination_blob_name}"
+    )

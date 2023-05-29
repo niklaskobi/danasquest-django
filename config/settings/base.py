@@ -4,6 +4,7 @@ Base settings to build other settings files upon.
 from pathlib import Path
 
 import environ
+import os
 
 ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 # danasquest/
@@ -38,8 +39,25 @@ LOCALE_PATHS = [str(ROOT_DIR / "locale")]
 # DATABASES
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
-DATABASES = {"default": env.db("DATABASE_URL")}
-DATABASES["default"]["ATOMIC_REQUESTS"] = True
+# DATABASES = {"default": env.db("DATABASE_URL")}
+# DATABASES["default"]["ATOMIC_REQUESTS"] = True
+
+# ------------------------------------------------------------------
+# From https://cloud.google.com/python/django/appengine#console_3
+# ------------------------------------------------------------------
+# [START db_setup]
+# [START gaestd_py_django_database_config]
+# Use django-environ to parse the connection string
+DATABASES = {"default": env.db()}
+# If the flag as been set, configure to use proxy
+if os.getenv("USE_CLOUD_SQL_AUTH_PROXY", None):
+    DATABASES["default"]["HOST"] = "127.0.0.1"
+    DATABASES["default"]["PORT"] = 5432
+    DATABASES["default"]["USER"] = "postgres"
+    DATABASES["default"]["PASSWORD"] = "1Uj&QaR/vG<k=Ef{"
+# ------------------------------------------------------------------
+
+
 # https://docs.djangoproject.com/en/stable/ref/settings/#std:setting-DEFAULT_AUTO_FIELD
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
@@ -73,7 +91,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "danasquest.users",
-    "danasquest.firestore"
+    "danasquest.firestore",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps

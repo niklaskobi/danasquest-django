@@ -4,16 +4,17 @@ import logging
 from django.shortcuts import render, redirect
 from django.urls import reverse
 from .forms import UploadFileForm
-from .io_functions import send_to_firestore, read_from_firestore
+from .io_functions import send_to_firestore, read_from_firestore, upload_to_cloud_storage, upload_blob_from_memory
 
 
 def firestore_upload(request):
     if request.method == 'POST':
         form = UploadFileForm(request.POST, request.FILES)
         if form.is_valid():
-            data = get_settings_file(request)
+            data = form.save()
+            # data = get_settings_file(request)
             assets = get_assets(request)
-            send_to_firestore(data, assets)
+            # send_to_firestore(data, assets)
 
             payload = {
                 "message": "Export to firestore was successful",
@@ -31,7 +32,8 @@ def firestore_upload(request):
 
 def view_uploaded_chunks(request):
     data = read_from_firestore()
-    print(f'Data from firestore document: {data}')
+    # print(f'Data from firestore document: {data}')
+    upload_to_cloud_storage()
 
     return render(request, 'arcweave/view_uploaded.html', {'data': data})
 
@@ -51,6 +53,9 @@ def get_assets(request):
     assets_list = []
     if 'pic_cover' in request.FILES:
         assets_list.append({'name': 'pic_cover', 'file': request.FILES['pic_cover'].file})
+        # upload_blob_from_memory(request.FILES['pic_cover'].file, 'pic_cover')
+        # upload_blob_from_memory('test', 'pic_cover')
+
     # if 'pic_characters' in request.FILES:
     #     assets_list.append(request.FILES['pic_characters'])
     # if 'pic_backgrounds' in request.FILES:
