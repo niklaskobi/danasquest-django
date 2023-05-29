@@ -93,7 +93,8 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "danasquest.users",
     "danasquest.firestore",
-    # Your stuff: custom apps go here
+    "danasquest.arcweave.apps.ArcweaveConfig",
+
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
