@@ -1,0 +1,3065 @@
+{
+    "startingElement": "00ff3647-fc59-4fcf-9f83-be9043a4956d",
+    "boards": {
+        "1dc56eff-b128-45d7-a51a-392cb41a9da6": {
+            "name": "Kitchen",
+            "notes": [],
+            "jumpers": [
+                "00276dcc-bf5e-4819-b3b3-6317e783e7f6",
+                "51957431-ff4f-47e3-b9e5-31a8a45cc5b0",
+                "6ebf195a-46a1-41ab-9b4b-52ed3c9199d7",
+                "be343f3d-e556-4d3d-86c6-959320ca74b6",
+                "76d71d8a-e148-4327-9170-14e613471c9e",
+                "21a59555-0917-45fb-becc-c830d59ccaf7"
+            ],
+            "branches": [],
+            "elements": [
+                "7b70c5ff-ff8e-49fa-8821-f460ee1907f7",
+                "96d00c52-0947-4a5a-89a9-99308bbddfb5",
+                "b3bbe3ea-70be-431c-9a58-04121e921388",
+                "c1b1b2c5-61e9-446e-b9f6-98e3f672316b",
+                "b917df1c-3ea4-4e9d-a457-bd803564e986",
+                "49aeef39-f41d-4f2d-a9fa-aadc65fc5d97",
+                "414ad622-878e-4f67-9133-86cbb66dda13",
+                "7998cea6-7a17-43bb-b157-7d4522235e1a",
+                "f78845ce-a6f3-40c3-917e-5c829fd171f3",
+                "094b776b-ea37-41d7-9412-9da0abd7f191",
+                "a0bf3519-8e21-45f6-88e4-6e99cd6d2b7d",
+                "5347b9af-a538-48c1-89af-051efc6dc81f",
+                "bd71aa55-514c-4883-b2d5-6b5772d3a73c",
+                "0071a673-6299-4819-afcc-90e4c3a66563",
+                "87e94d2a-5387-4f3e-8768-7ee975378042",
+                "b5852758-f45b-42e4-9c8e-dadda9725f55",
+                "8d319d39-d4b3-447f-8955-2e1e83e6dfc2",
+                "d819ce29-815b-4029-a053-854319ce1b2d",
+                "8b237b09-e507-4c6c-8fba-0b8e4b85d9cf",
+                "d08e548c-2d91-4831-932e-9a78957f331f",
+                "e52df0c0-9870-4c06-bf2c-6a60d363e2ec",
+                "d608a39a-d3df-42ac-ba90-d00e0d1b9291",
+                "4b909bb6-4b59-4cd0-99e5-3e24c1653abb"
+            ],
+            "connections": [
+                "9d68ffaf-3329-4c1b-891e-8e933cdb2c44",
+                "a1ec6947-f591-42a3-b290-364d8dc33a7a",
+                "0d33ece6-9afc-4ef1-8e9c-ea63639c0c54",
+                "e791422e-4686-42b1-9df3-abd6f9796256",
+                "06ae9252-11c1-4f55-a03e-2b6bb641a87d",
+                "16fccacd-8dd4-43ae-9424-0d1ed18f416d",
+                "54edab7d-2715-4e32-9cea-e46d7cea7f8c",
+                "2b3864a7-3665-4328-acd0-5385c7cb89dd",
+                "0829c824-d327-4caf-891b-c691d0f9ad42",
+                "321366ab-24f1-4861-bd15-7ed18e036395",
+                "96fedbe6-01bc-45f4-9697-f9839626dfa0",
+                "27f95cb0-092d-4f81-ad28-c42dbe12009e",
+                "3d9eb75c-96fd-4842-bb43-33a9c67c29f9",
+                "02c4ab58-0dcc-4eff-9180-294c615e41cf",
+                "294ddc5b-d928-4f28-9d8d-c58a0959b022",
+                "0882d8dc-1a77-4ed2-8779-4877d24d9813",
+                "85ffece9-c83e-428f-b920-32be83d88289",
+                "68189d3b-d37b-4bb2-92c5-fc27c311803c",
+                "f7a92d4d-0196-4fd2-b196-c06cbaa09bb6",
+                "0e973e6a-b871-424e-99e9-e1bb8ab9d948",
+                "49ce09b7-930e-437f-99bc-2474406278c4",
+                "df937634-209b-4b7b-8807-525ad3d55cfe",
+                "3f709db7-59dd-49b1-abab-4bd88b57dbbc",
+                "06c2ba8c-ba8a-4fe3-bbb9-0c13d0f264f6",
+                "013bbb5a-bfdc-4410-b00f-5a3d8e9b4d45",
+                "fc628fa5-e4d1-43c5-9408-331d0aded954",
+                "4abc0f23-d6e2-4ca6-ad94-67084dfe320a",
+                "9eef1ce4-dcdb-4665-9596-d3bb87b939f4",
+                "c7c44a9a-93e3-42cb-82ba-d91dd586c50c",
+                "20ff3f16-d523-43de-99df-0bc95050279f",
+                "f4690d18-0133-40b5-a087-18c73ef78802",
+                "74716cec-7cb4-460d-b08a-3b1f69f3e62f",
+                "8999e0b4-5e24-433f-89c5-73f5583db3dc",
+                "4dccd5d0-e737-4984-b3ad-cf20dd6dc953"
+            ]
+        },
+        "2ad15ff6-f2ba-4f1d-9d9d-68938c683d7e": {
+            "name": "Root",
+            "root": true,
+            "children": [
+                "f357f04f-2138-47a5-9b43-96f158bf268e"
+            ]
+        },
+        "4a32280a-7501-481e-8aae-a6862c9a2c75": {
+            "name": "Storeroom",
+            "notes": [],
+            "jumpers": [
+                "521a2ebe-2bb4-40ff-8c10-31a6750f9946",
+                "950ff9d3-0c70-4aa6-8ced-6b79e72971ee"
+            ],
+            "branches": [],
+            "elements": [
+                "7092fd6e-ef2c-4891-8206-84e9f1073734",
+                "1ed55097-4b9a-470f-bd44-9705cdc75b62",
+                "2ead919a-27fc-4965-b252-d651d95e54a4",
+                "74281df4-1121-4aef-8c15-79cf596bf6ce",
+                "d89a4f89-5837-4fde-bffd-1be4be52e680",
+                "abd77880-6fe2-4a82-91a6-ee367d0cf6cf",
+                "b10c4bcb-bd91-42c3-8335-7f4935a5dd2e"
+            ],
+            "connections": [
+                "8d0ac21a-c23a-4c1b-b27d-6c525841a709",
+                "5275ad36-990d-4fcb-b483-f83e526446a0",
+                "a56d42af-44a3-4fe0-a25a-ff2b760e202a",
+                "f2b624fb-9c9d-4583-abfa-b84e6c1b2b82",
+                "ea45728f-1a1b-470e-a0bf-a284c479e303",
+                "c684dbd1-7c18-47f8-9148-ede7de5a7a23",
+                "161fef37-c47f-4dd3-85ff-479dd14d5814",
+                "2bdfdec3-3b4a-4214-a53b-14ef87e5637f"
+            ]
+        },
+        "4c57ce3c-35f3-4d99-a8ec-c960c8302669": {
+            "name": "Monk",
+            "notes": [],
+            "jumpers": [],
+            "branches": [],
+            "elements": [
+                "6d3c5453-2818-4943-b995-6edcdc639cd4"
+            ],
+            "connections": []
+        },
+        "630fdb8a-48d6-473e-9974-2460f7eb2b41": {
+            "name": "Intro",
+            "notes": [],
+            "jumpers": [
+                "43d9a0ba-2e24-4073-bca3-fea2e4dead09"
+            ],
+            "branches": [],
+            "elements": [
+                "faad75b7-79dc-4889-8046-a4892f7c8eb5",
+                "6bd4c763-7fed-43a4-94d7-5cfbd2bc1b46",
+                "53365156-743b-42de-bc75-7fbfeae20c11",
+                "f5461ca9-b6b1-4bea-bd16-80c45f273b3d",
+                "96c09ae7-4b60-49a9-a6f2-8ab705a226e9",
+                "9ef00f8d-c5b3-4bf1-b337-16fc918405d4",
+                "4880368e-2bbe-4a22-8371-6732840a67d5",
+                "f41fa996-b3fa-4a01-b0c2-5660fa1b7820",
+                "00ff3647-fc59-4fcf-9f83-be9043a4956d",
+                "6d4b3667-2333-47b0-a5bb-d14512cd098e"
+            ],
+            "connections": [
+                "5b930ca0-1bae-4047-8de5-c6294baaf8a6",
+                "8ed323e0-9ecf-4138-9555-8d37eba42395",
+                "4a2a14af-7350-4301-948c-60768b60d029",
+                "278a123b-2259-4988-a5c6-5c1b00092dea",
+                "ab3e0156-0738-4a40-a4b4-f5d6f1b93b0d",
+                "03b8f7c4-86c2-41a9-bde7-e8776d88d69f",
+                "86864496-762a-4772-a64f-85920908ac41",
+                "513a4db5-be8f-4ed1-ba93-759f52c73d20",
+                "a124c3b8-aab4-4783-9d90-3771edfb6b05",
+                "cf97c872-a590-4c9f-9506-7a2e8caad9f6"
+            ]
+        },
+        "846852ce-6f4d-4e64-8c12-e97261aff1e5": {
+            "name": "Dialogue w. Marta",
+            "notes": [],
+            "jumpers": [
+                "03e4ebb2-193c-400f-8221-ec9e0e04ae49",
+                "28feea3e-cfeb-455c-95fe-9152b886a30a",
+                "b89c1921-92b6-4425-a722-7ed1e9e359b8"
+            ],
+            "branches": [],
+            "elements": [
+                "015bd3cc-b147-4d17-af68-9bcc97e1ca48",
+                "44c6fc28-ed01-4169-8094-bfd0f2be80c5",
+                "fefe58ca-f314-410e-9be6-0ef1fa4ae0a4",
+                "7e42da2c-c20f-4a76-97c6-d0bb95b50fc6",
+                "c5d2a465-f65f-4083-8b78-d60c7199a204",
+                "b6f98135-f1c2-4d07-a87c-c9443bb94bce",
+                "6c47b3ac-6521-4fdd-9de7-c99f59533aac",
+                "e518dd55-6101-4bed-89c6-73fac5c90ef7",
+                "824e5726-be2c-4c56-8393-191fdc1cec53",
+                "2b644f07-1bdf-42a3-89bf-bd064a71989b",
+                "96e88e8d-5496-4d9f-89ce-cf292a0377f7",
+                "df0ceda7-1397-4e99-92d1-b93fc053a10f",
+                "3b228dc0-4195-4730-859a-b85615f071e7",
+                "14d963d9-39e5-43a3-8185-64ee37e4efd0"
+            ],
+            "connections": [
+                "7e9f10b1-c4e8-4368-aadc-62586de6ad81",
+                "965220da-daa8-4c90-bb22-199801e07b5a",
+                "b1d602e2-95ad-4dae-a21a-655e30abcb85",
+                "6794bf1f-2488-4f43-b86e-64ff8daa7379",
+                "270fc00c-d78f-4e12-8ba0-28d47adf3b7a",
+                "fd46a8bb-e770-42da-b343-948eb18f1279",
+                "7ea77943-b31c-4d8c-942e-9f199f3691e7",
+                "0ac3aa34-a04b-47dd-921a-f62c36f1298d",
+                "b81fc123-5825-472b-b8c3-fad07213f646",
+                "b0696fc5-2bd7-4993-9929-514440508491",
+                "d2fa2500-9b89-41fc-9c62-55666370081e",
+                "10fecf8b-dcf2-461a-9b5a-a4a8b1667562",
+                "0578f601-4478-43b0-8017-ff9421e11019",
+                "2213f946-8b32-4492-896a-afc72646ea90",
+                "67bddbbb-1676-4522-90d3-ef845e5886bc",
+                "e660ae1f-9187-481b-b927-519a85ed145a",
+                "145e13a5-0a3b-48b0-a597-d1c616fd877e",
+                "26908501-e6ed-40b0-9dde-e2624185547b",
+                "b48f6496-8e45-4782-96f7-cb1435ff2843",
+                "46d3777a-7b26-4c45-8bfc-43b9effbd6e6",
+                "85f7cb78-7edb-46fc-ac35-7812c745e2a9",
+                "648485dd-d71e-4089-a513-e9be1303458a",
+                "91ad5b82-a1e5-4250-aee0-b7eb896dfec7",
+                "691aebf8-4362-493f-9b13-36b156fad8cb"
+            ]
+        },
+        "a630aa01-476f-4473-a293-8d80f085e6da": {
+            "name": "Master w. mayor",
+            "notes": [],
+            "jumpers": [
+                "46ccee6d-8be3-4251-af09-026274dbf088"
+            ],
+            "branches": [],
+            "elements": [
+                "d9c4c49a-8c70-493f-88e2-23fd2fc40036",
+                "736df511-77a7-4438-9937-a261f2deb1c7",
+                "8df80eef-deb5-4541-9e30-03308e925a5d",
+                "468b8d9a-e59f-4789-ab37-12559497faab",
+                "1ba2bbf9-7841-4357-b176-05055f3ebe10"
+            ],
+            "connections": [
+                "e21ff768-18fa-4172-96ce-fe6320068ad9",
+                "6fa34cee-aa86-42e8-ad7f-0ab6a62a2c30",
+                "b71b69d3-9d26-410e-9d63-2a98bc51f6c4",
+                "6071573f-cd00-4e7d-958e-2988253fdf17",
+                "85f4474b-77ee-454f-8279-955a3341127c"
+            ]
+        },
+        "f15aa2bc-22ab-4a6b-9a55-85f6e73b6fe7": {
+            "name": "Dialogue w. Master",
+            "notes": [],
+            "jumpers": [
+                "74620782-d5f4-4d2b-ab3d-83509e6b211e"
+            ],
+            "branches": [],
+            "comments": [],
+            "elements": [
+                "533e2cab-53f9-40b9-9009-d6809b95c0c3",
+                "6f35180f-1257-4a8d-90ae-58f2cd4dc8b4",
+                "edf14a2b-7e6e-47c7-8387-ce12afc04e02",
+                "32ce7d6a-8167-4d7f-870b-89a655ba38dd",
+                "29aa657d-1349-4de3-95dd-b40d49e03acc",
+                "487249b8-9843-417f-96e6-ee6e026b62fc",
+                "1efb9ce7-b06e-49ba-9cf6-a79b5600436d",
+                "21e8c1f9-36ef-489a-a81d-73314905f46a",
+                "d7b269e2-4f02-432f-ae8d-73828dad13c5",
+                "f0d5cb87-d63c-4504-8440-275a9acfc7b2",
+                "d7f4487a-117a-4676-b328-b85aa092cd1b",
+                "5add28c7-3c6c-471c-a48d-f8384be432b0",
+                "7b03ac81-bb21-4e6e-bbe2-416ebc290298",
+                "038fe590-66dc-48de-90e0-7581e59c7d1d",
+                "791c60c7-6cb2-40ba-8c79-4f629c2fc206",
+                "0e1fde1e-1914-496f-b99d-8332466d792c",
+                "7e3b2010-c6a3-425d-a4b9-2b5728d0f780",
+                "96fbe10f-aa9f-4707-aa7d-7608c6f57ad4"
+            ],
+            "connections": [
+                "bbc7e216-050f-4245-81d2-a6a1df4df595",
+                "0a3a6dd7-a185-4772-91c2-fe951ba4c626",
+                "340e6731-b8bc-47f3-a2f9-24d5a73cc612",
+                "dab1f6dc-c356-49db-b1f7-bc1cb68a160e",
+                "eec9d609-7eb9-4999-83a9-58910b79475b",
+                "1df493bc-1e45-4f45-8563-a6512cbe0cd3",
+                "257d487b-0bb5-44cd-97c4-bd5feaf79ad5",
+                "645368e7-1913-407b-8ad9-6da1d0234de8",
+                "3d95f9a0-1dd0-460c-8043-8aa0219efd95",
+                "8aa7b687-d736-4115-b559-9208d58a8343",
+                "e2dfec72-dd67-4535-ad76-84b92c3bb91f",
+                "a74543a2-7778-431e-b9a5-204753558c03",
+                "796cf9d2-a299-4556-b392-78c19507a5a3",
+                "830525d2-fafb-4c74-a09a-d3dd2829f6cf",
+                "99b272bc-50ef-4a54-8d00-379a9f09c044",
+                "48001291-b9e0-42f3-8463-eed70213c06e",
+                "eb7ec106-3d6d-4c7d-a0f4-a3e2f1d6b530",
+                "2fea18d1-86ce-410c-8b2d-12c0431a57d6",
+                "cb2dee0e-2fc6-4032-bc2c-394b6599dcb7",
+                "56a51d4e-717a-403a-8502-0350dc93c3ec",
+                "715d75fb-bf6a-4f4b-99ea-68d263522531",
+                "39836d13-d0c8-4d41-ba36-4be932f44afe",
+                "d186b800-e12e-41fb-8631-124154ce2266",
+                "7f84cfad-4789-4aae-9067-92f6320f2d0c",
+                "2951a37c-b8b7-4db4-bc5a-0d610d00902b"
+            ]
+        },
+        "f357f04f-2138-47a5-9b43-96f158bf268e": {
+            "name": "Episode 1",
+            "children": [
+                "4c57ce3c-35f3-4d99-a8ec-c960c8302669",
+                "a630aa01-476f-4473-a293-8d80f085e6da",
+                "630fdb8a-48d6-473e-9974-2460f7eb2b41",
+                "f15aa2bc-22ab-4a6b-9a55-85f6e73b6fe7",
+                "846852ce-6f4d-4e64-8c12-e97261aff1e5",
+                "1dc56eff-b128-45d7-a51a-392cb41a9da6",
+                "4a32280a-7501-481e-8aae-a6862c9a2c75"
+            ]
+        }
+    },
+    "notes": {},
+    "elements": {
+        "0071a673-6299-4819-afcc-90e4c3a66563": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Ладно, мы же друзья!<\/p>\n",
+            "outputs": [
+                "321366ab-24f1-4861-bd15-7ed18e036395"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "00ff3647-fc59-4fcf-9f83-be9043a4956d": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Intro<\/p>",
+            "assets": {
+                "audio": [
+                    {
+                        "id": "c9828672-eb3e-4c89-a48a-0e3d769f6692",
+                        "mode": "once",
+                        "asset": "b49d4358-50e7-46a8-8633-4c1fd7d736b6",
+                        "delay": 0
+                    }
+                ],
+                "cover": {
+                    "id": "07de7ba5-b76f-4816-bdc1-f3f9dbdc7201"
+                }
+            },
+            "content": "<p>Dana's Quest<p><\/p><p>Начало<\/p><\/p>\n",
+            "outputs": [
+                "86864496-762a-4772-a64f-85920908ac41"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "015bd3cc-b147-4d17-af68-9bcc97e1ca48": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "ad8e44de-2fbf-4936-a1be-3c3fb8bfd219"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Ну ладно, займемся чем-нибудь другим тогда. Слушай, я тебе хотела показать одного чудака!<\/p>\n",
+            "outputs": [
+                "691aebf8-4362-493f-9b13-36b156fad8cb"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "038fe590-66dc-48de-90e0-7581e59c7d1d": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "07f647da-375e-41ef-9c7e-3f067d7c25aa"
+                }
+            },
+            "content": "<p>Дана просыпается в своей уютной хижине на острове. В хижине небольшой но уютный беспорядок, В углу стоят много карт и самодельные крылья, на столе разложены какие-то инструменты. На стене висит картинка в память о отце, который пропал год назад.<\/p>\n",
+            "outputs": [
+                "0a3a6dd7-a185-4772-91c2-fe951ba4c626"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "094b776b-ea37-41d7-9412-9da0abd7f191": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Никуда Данин папа не пропал! Он скоро вернется.<p><strong>Тётя Эльза<\/strong>: Ну хорошо! Вернется так вернется. (бурчит что-то под нос, потом меняет выражение лица и отправляется искать что-то в кухонных ящичках)<\/p><p><strong>Тётя Эльза<\/strong>: Дана и Марта, вы мне хорошо помогли сегодня, так что я хочу вас поблагодарить. Я с утра напекла медовых лепешек. Вот вам дюжина, чтобы солнцеворот был веселее!<\/p><\/p>\n",
+            "outputs": [
+                "294ddc5b-d928-4f28-9d8d-c58a0959b022"
+            ],
+            "autoHeight": false,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "0e1fde1e-1914-496f-b99d-8332466d792c": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\"><\/p>",
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Мастер крыльев:<\/strong> Эгэй, хорошего дня, Дана! Как тебе мои змеи?<\/p>\n",
+            "outputs": [
+                "dab1f6dc-c356-49db-b1f7-bc1cb68a160e",
+                "eec9d609-7eb9-4999-83a9-58910b79475b"
+            ],
+            "autoHeight": false,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "14d963d9-39e5-43a3-8185-64ee37e4efd0": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p>Дана и Марта идут на общинную кухню<\/p>\n",
+            "outputs": [
+                "d2fa2500-9b89-41fc-9c62-55666370081e"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "1ba2bbf9-7841-4357-b176-05055f3ebe10": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "8e3044cc-23c2-4aec-8707-f83589c55708"
+                }
+            },
+            "content": "<p><strong>Староста<\/strong>: ...послушай, почтенный, я не знаю, чем еще могу тебе помочь. Разве я не дал тебе хорошую работу в деревне?<p><strong>Мастер<\/strong>: Разве ж это работа? Я мастер крыльев, а не поломанных черепиц, лопат да летучих змеев!<\/p><p><strong>Староста<\/strong>: Что же я могу сделать, если люди больше никуда не летают?<\/p><p><strong>Мастер:<\/strong> Для начала ты мог бы прекратить настраивать их против жителей других островов!<\/p><\/p>\n",
+            "outputs": [
+                "e21ff768-18fa-4172-96ce-fe6320068ad9"
+            ],
+            "autoHeight": true,
+            "components": [
+                "1b6128ea-3958-4119-8e26-e1cd660a4087",
+                "e71ce543-c55c-418a-b553-9f2a6ba551d1"
+            ]
+        },
+        "1ed55097-4b9a-470f-bd44-9705cdc75b62": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "c0116fe5-b5c0-4909-a73c-727f794b3e92"
+                }
+            },
+            "content": "<p>Дана и Марта выскакивают в окно и прячутся за кустами в саду старосты. Они видят, как староста и мастер осматривают кладовую и переговариваются в недоумении. Подруги начинают потихоньку пробираться к выходу из сада. Вдруг Дана замечает мастера крыльев, появившегося на пороге дома старосты. Мастер идет в их направлении. Марта и Дана пускаются наутек.<\/p>\n",
+            "outputs": [
+                "161fef37-c47f-4dd3-85ff-479dd14d5814"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "1efb9ce7-b06e-49ba-9cf6-a79b5600436d": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Мастер Крыльев:<\/strong> Эй, Дана, не спеши вешать нос, а то руки опустятся, и вообще ничего не сможешь сделать!<\/p>\n",
+            "outputs": [
+                "99b272bc-50ef-4a54-8d00-379a9f09c044"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "21e8c1f9-36ef-489a-a81d-73314905f46a": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Мастер Крыльев:<\/strong> Ты точно папа твой говоришь! Может, было бы вас больше таких, дела бы и по иному пошли. А тут, знаешь, многие считают, что своя рубашка ближе к телу. Староста вон тоже к ним затесался.<\/p>\n",
+            "outputs": [
+                "830525d2-fafb-4c74-a09a-d3dd2829f6cf"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "29aa657d-1349-4de3-95dd-b40d49e03acc": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Мастер Крыльев<\/strong>: Дана, ты, конечно, дочь моего хорошего знакомого, но даром крылья я не делаю. Слишком уж дорог материал. Ты меня прости.<\/p>\n",
+            "outputs": [
+                "eb7ec106-3d6d-4c7d-a0f4-a3e2f1d6b530",
+                "2fea18d1-86ce-410c-8b2d-12c0431a57d6",
+                "cb2dee0e-2fc6-4032-bc2c-394b6599dcb7"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "2b644f07-1bdf-42a3-89bf-bd064a71989b": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Ты что делаешь-то?<\/p>\n",
+            "outputs": [
+                "270fc00c-d78f-4e12-8ba0-28d47adf3b7a",
+                "fd46a8bb-e770-42da-b343-948eb18f1279",
+                "7ea77943-b31c-4d8c-942e-9f199f3691e7"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "2ead919a-27fc-4965-b252-d651d95e54a4": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "8e3044cc-23c2-4aec-8707-f83589c55708"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Блин, кто-то идет! Прячься за ящиками!<p>Марта и Дана прячутся за ящиками и слышат приглушенные голоса старосты и мастера крыльев.<\/p><\/p>\n",
+            "outputs": [
+                "a56d42af-44a3-4fe0-a25a-ff2b760e202a"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "32ce7d6a-8167-4d7f-870b-89a655ba38dd": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Мастер Крыльев<\/strong>: Ну спасибо, Дана. Ступай-ка ты лучше в деревню, помоги им к празднику готовиться.<\/p>\n",
+            "outputs": [
+                "2951a37c-b8b7-4db4-bc5a-0d610d00902b"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "3b228dc0-4195-4730-859a-b85615f071e7": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Да нет проблем!<\/p>\n",
+            "outputs": [
+                "b1d602e2-95ad-4dae-a21a-655e30abcb85"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "414ad622-878e-4f67-9133-86cbb66dda13": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "ad8e44de-2fbf-4936-a1be-3c3fb8bfd219"
+                }
+            },
+            "content": "<p><strong>Марта:<\/strong> Давай теперь тебе тоже настроение поднять попробуем? Может проберёмся к старосте и попробуем у него в доме что-нибудь разузнать про духов и твоего отца? И тут на острове кстате есть один чудак, который считает, что мы в духах ничего не понимаем. Вот странный, да? Но говорит, как твой папа. Я как раз хотела его тебе показать.<\/p>\n",
+            "outputs": [
+                "0882d8dc-1a77-4ed2-8779-4877d24d9813",
+                "85ffece9-c83e-428f-b920-32be83d88289",
+                "68189d3b-d37b-4bb2-92c5-fc27c311803c"
+            ],
+            "autoHeight": false,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "44c6fc28-ed01-4169-8094-bfd0f2be80c5": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Ну ты трусиха!<\/p>\n",
+            "outputs": [
+                "b48f6496-8e45-4782-96f7-cb1435ff2843",
+                "91ad5b82-a1e5-4250-aee0-b7eb896dfec7"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "468b8d9a-e59f-4789-ab37-12559497faab": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Разговор мастера крыльев и старосты у старосты дома.<\/p>",
+            "content": "<p>Дана и Марта подслушивают разговор старосты и мастера крыльев через дверь<\/p>\n",
+            "outputs": [
+                "6071573f-cd00-4e7d-958e-2988253fdf17"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "487249b8-9843-417f-96e6-ee6e026b62fc": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Мастер Крыльев<\/strong>: МК: Давно от отца-то не слышала?<p><strong>Дана<\/strong>: Да больше года уже.<\/p><p><strong>Мастер Крыльев<\/strong>: Ты не беспокойся, он не пропадет. Он путешественник бывалый.<\/p><\/p>\n",
+            "outputs": [
+                "48001291-b9e0-42f3-8463-eed70213c06e",
+                "56a51d4e-717a-403a-8502-0350dc93c3ec",
+                "39836d13-d0c8-4d41-ba36-4be932f44afe"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "4880368e-2bbe-4a22-8371-6732840a67d5": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Диалог с отцом<\/p>",
+            "assets": {
+                "cover": {
+                    "id": "b9fbf15a-fccd-40a6-9171-770a10768ff0"
+                }
+            },
+            "content": "<p><strong>Дана:<\/strong> А как же ты тогда долетишь?<p><strong>Акке:<\/strong> Ну.. В наш старый дом то нам теперь дорога заказана, поэтому меня будет вести надежда на светлое будущее и непобедимый оптимизм, эти надежнее компаса, Данка.<\/p><p><strong>Дана:<\/strong> Ну, дорогу ты допустим найдешь, пол жизни про них от тебя слушаю. А что насчет.. Ну, этих, дурных духов?<\/p><p>В голосе Даны впервые послышались нотки страха и Акке вздохнул заметив это изменение.<\/p><p><\/p><\/p>\n",
+            "outputs": [
+                "4a2a14af-7350-4301-948c-60768b60d029"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "49aeef39-f41d-4f2d-a9fa-aadc65fc5d97": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "ad8e44de-2fbf-4936-a1be-3c3fb8bfd219"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Слушай, все-таки здорово, что ты меня уболтала тете Эльзе помочь. Как-то радостно от этого. Может быть, потому, что она все время была хмурая, а теперь повеселела. (смеется) Вот так поведешься с тобой, еще пай-девочкой станешь!<\/p>\n",
+            "outputs": [
+                "0e973e6a-b871-424e-99e9-e1bb8ab9d948"
+            ],
+            "autoHeight": false,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "4b909bb6-4b59-4cd0-99e5-3e24c1653abb": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Старт<\/p>",
+            "content": "<p>Дана и Марта приходят на кухню к тёте Эльзе<\/p>\n",
+            "outputs": [
+                "4dccd5d0-e737-4984-b3ad-cf20dd6dc953"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "53365156-743b-42de-bc75-7fbfeae20c11": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Intro<\/p>",
+            "assets": {
+                "cover": {
+                    "id": "07de7ba5-b76f-4816-bdc1-f3f9dbdc7201"
+                }
+            },
+            "content": "<p>Это сказание -- о далеком-далеком мире. В этом мире еще живы крупицы волшебства.<p><\/p><\/p>\n",
+            "outputs": [
+                "513a4db5-be8f-4ed1-ba93-759f52c73d20"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "533e2cab-53f9-40b9-9009-d6809b95c0c3": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Мастер Крыльев<\/strong>: (хмурится) Ну, хватит так хватит<\/p>\n",
+            "outputs": [
+                "715d75fb-bf6a-4f4b-99ea-68d263522531"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "5347b9af-a538-48c1-89af-051efc6dc81f": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p>Дана и Марта начинают работать на кухне. Марта помогает на кухне, Дану же тётя Эльза просит мыть котлы, так как она, как и почто вся деревня всё ещё думает что у Даны плохая карма и ей нельзя доверять целиком. Дана уже к этому привыкла и не спорит.<br><br>Через некоторое время, видя их усердие, у тетушки Эльзы улучшается настроение.<\/p>\n",
+            "outputs": [
+                "3d9eb75c-96fd-4842-bb43-33a9c67c29f9"
+            ],
+            "autoHeight": false,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "5add28c7-3c6c-471c-a48d-f8384be432b0": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Мастер Крыльев:<\/strong> По правде сказать, я не очень-то хорошо знаю, как выглядят настоящие чудезвери. Тебе-то твой папа, наверное, много рассказывал про них.<\/p>\n",
+            "outputs": [
+                "257d487b-0bb5-44cd-97c4-bd5feaf79ad5"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "6bd4c763-7fed-43a4-94d7-5cfbd2bc1b46": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Intro<\/p>",
+            "assets": {
+                "cover": {
+                    "id": "07de7ba5-b76f-4816-bdc1-f3f9dbdc7201"
+                }
+            },
+            "content": "<p>Что, как не волшебство - огромные летучие острова, парящие над беспокойным океаном?<\/p>\n",
+            "outputs": [
+                "a124c3b8-aab4-4783-9d90-3771edfb6b05"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "6c47b3ac-6521-4fdd-9de7-c99f59533aac": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Оо, вот такое настроение больше похоже на Дану!<\/p>\n",
+            "outputs": [
+                "0ac3aa34-a04b-47dd-921a-f62c36f1298d"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "6d3c5453-2818-4943-b995-6edcdc639cd4": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Старт<\/p>",
+            "content": null,
+            "outputs": [],
+            "autoHeight": true,
+            "components": []
+        },
+        "6d4b3667-2333-47b0-a5bb-d14512cd098e": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Диалог с отцом<\/p>",
+            "assets": {
+                "audio": [
+                    {
+                        "id": "ebb76cbd-9ac3-42cf-88a8-55d4959a2498",
+                        "mode": "once",
+                        "asset": "cbd7e847-db44-4742-a359-1346e7aee274",
+                        "delay": 0
+                    }
+                ],
+                "cover": {
+                    "id": "b9fbf15a-fccd-40a6-9171-770a10768ff0"
+                }
+            },
+            "content": "<p><strong>Дана: <\/strong>Пап, это.. А как далеко долетают светляки с нашего острова? Иногда я думаю, они пропускают самый красивый момент дня и не видят закат, такой красивый как этот. Если они вообще умеют видеть, конечно.<p><strong>Акке: <\/strong>Уж не знаю видят ли они, но летают будь здоров, смотри как высоко этот поднялся, а про закат - ну чего жалеть? Может они зато видят волшебство какое.<\/p><p>Дана плюхнулась на траву и заложила руки за голову, задумчиво уставившись на уже видные звезды.<\/p><p><\/p><\/p>\n",
+            "outputs": [
+                "5b930ca0-1bae-4047-8de5-c6294baaf8a6"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "6f35180f-1257-4a8d-90ae-58f2cd4dc8b4": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p>Появляется Марта, которая несет моток бечевки<p><\/p><p><strong>Марта<\/strong>: Мастер, вот тебе бечевка, как просил... Хе-хей Дана, и ты тут!<\/p><\/p>\n",
+            "outputs": [
+                "d186b800-e12e-41fb-8631-124154ce2266"
+            ],
+            "autoHeight": false,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "7092fd6e-ef2c-4891-8206-84e9f1073734": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "c0116fe5-b5c0-4909-a73c-727f794b3e92"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Как ты думаешь, он нас видел?<p><strong>Дана<\/strong>: Не знаю...<\/p><p><strong>Марта<\/strong>: Вот же блин! Это все из-за тебя. Угораздило же тебя быть такой неуклюжей!<\/p><p><strong>Дана<\/strong>: И что теперь делать?<\/p><p><strong>Марта<\/strong>: Надо притвориться, будто нас там не было. Я знаю одного чудака, он живет на отшибе. Сделаем вид, будто мы у него были все время. Удалось хоть что-то добыть-то?<\/p><p><strong>Дана<\/strong>: Да вот только какую-то фляжку с медом.<\/p><p><strong>Марта<\/strong>: Ничего себе! Это же Талисский мед! Он очень редкий! Ну, не зря слазили. Бросай его в сумку, и побежали, пока староста нас не нашел!<\/p><\/p>\n",
+            "outputs": [
+                "2bdfdec3-3b4a-4214-a53b-14ef87e5637f"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "736df511-77a7-4438-9937-a261f2deb1c7": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "8e3044cc-23c2-4aec-8707-f83589c55708"
+                }
+            },
+            "content": "<p><strong>Староста<\/strong>: Именно так! И я не собираюсь делиться со всякими проходимцами!<p><strong>Мастер<\/strong>: Ты разве сам не понимаешь, какая это глупость? Нашему острову не прожить без других островов.<\/p><p><strong>Староста<\/strong>: Прекрасно жили раньше, прекрасно проживем и дальше!<\/p><p><strong>Мастер:<\/strong> Тебе ли не знать, что наш остров потихоньку опускается в океан? И если ничего не делать, то упадет совсем?<\/p><\/p>\n",
+            "outputs": [
+                "b71b69d3-9d26-410e-9d63-2a98bc51f6c4"
+            ],
+            "autoHeight": true,
+            "components": [
+                "1b6128ea-3958-4119-8e26-e1cd660a4087",
+                "e71ce543-c55c-418a-b553-9f2a6ba551d1"
+            ]
+        },
+        "74281df4-1121-4aef-8c15-79cf596bf6ce": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Старт<\/p>",
+            "content": "<p>Марта и Дана пробираются в кладовую старосты.<\/p>\n",
+            "outputs": [
+                "8d0ac21a-c23a-4c1b-b27d-6c525841a709"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "791c60c7-6cb2-40ba-8c79-4f629c2fc206": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "ad8e44de-2fbf-4936-a1be-3c3fb8bfd219"
+                }
+            },
+            "content": "<p>Дана выходит на улицу и ей открывается великолепный вид на поля, холмы, леса и деревню. Где-то вдалеке порхают летучие змеи. Она вдыхает запах поля. Сегодня великолепный солнечный день и люди готовятся к завтрашнему празднику.<p><\/p><p>Дана бежит по дороге в направлении змеев и видит мастера крыльев, который их запускает. С ним несколько ребятишек.<\/p><p><\/p><p><\/p><\/p>\n",
+            "outputs": [
+                "340e6731-b8bc-47f3-a2f9-24d5a73cc612"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "7998cea6-7a17-43bb-b157-7d4522235e1a": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Спасибо тетя Эльза!<br><br>Дана и Марта прощаются с тётей Эльзой и выходят<\/p>\n",
+            "outputs": [
+                "f7a92d4d-0196-4fd2-b196-c06cbaa09bb6"
+            ],
+            "autoHeight": false,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "7b03ac81-bb21-4e6e-bbe2-416ebc290298": {
+            "theme": "default",
+            "title": null,
+            "content": "<p><p>Два года спустя.<\/p><p><\/p><\/p>\n",
+            "outputs": [
+                "bbc7e216-050f-4245-81d2-a6a1df4df595"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "7b70c5ff-ff8e-49fa-8821-f460ee1907f7": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "ad8e44de-2fbf-4936-a1be-3c3fb8bfd219"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Ну ладно, займемся чем-нибудь другим тогда. Слушай, я тебе хотела показать одного чудака!<\/p>\n",
+            "outputs": [
+                "74716cec-7cb4-460d-b08a-3b1f69f3e62f",
+                "8999e0b4-5e24-433f-89c5-73f5583db3dc"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "7e3b2010-c6a3-425d-a4b9-2b5728d0f780": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Мастер Крыльев:<\/strong> Спасибо, Дана! Многого стоит - услышать такую похвалу от дочери знатока чудезверей!<\/p>\n",
+            "outputs": [
+                "1df493bc-1e45-4f45-8563-a6512cbe0cd3"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "7e42da2c-c20f-4a76-97c6-d0bb95b50fc6": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Вот ты пай-девочка!<\/p>\n",
+            "outputs": [
+                "85f7cb78-7edb-46fc-ac35-7812c745e2a9",
+                "648485dd-d71e-4089-a513-e9be1303458a"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "824e5726-be2c-4c56-8393-191fdc1cec53": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Пошли, раздобудем чего-нибудь поесть!<\/p>\n",
+            "outputs": [
+                "b0696fc5-2bd7-4993-9929-514440508491",
+                "10fecf8b-dcf2-461a-9b5a-a4a8b1667562"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "87e94d2a-5387-4f3e-8768-7ee975378042": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p><strong>Дана<\/strong>: Ой, тетя Эльза, я вспомнила, что нам с Мартой надо бежать по важному делу!<p><strong>Тётя Эльза<\/strong>: Тьфу, никакого от вас прока нет!<\/p><\/p>\n",
+            "outputs": [
+                "3f709db7-59dd-49b1-abab-4bd88b57dbbc"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "8b237b09-e507-4c6c-8fba-0b8e4b85d9cf": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p><\/p>\n",
+            "outputs": [
+                "06ae9252-11c1-4f55-a03e-2b6bb641a87d",
+                "49ce09b7-930e-437f-99bc-2474406278c4",
+                "df937634-209b-4b7b-8807-525ad3d55cfe"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "8d319d39-d4b3-447f-8955-2e1e83e6dfc2": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p>Дана и Марта выходят на улицу<\/p>\n",
+            "outputs": [
+                "013bbb5a-bfdc-4410-b00f-5a3d8e9b4d45"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "8df80eef-deb5-4541-9e30-03308e925a5d": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "8e3044cc-23c2-4aec-8707-f83589c55708"
+                }
+            },
+            "content": "<p><strong>Староста<\/strong>: Никого я не настраиваю, почтенный! Я просто выражаю свое согласие с теми, кто не доверяет чужакам. Или ты не знаешь, какая разруха и нищета царит на иных островах? Да если бы они проведали, как хорошо мы тут живем, они бы все притащили сюда свои никчемные головы! Тут бы и конец нашему хозяйству!<p><strong>Мастер<\/strong>: За кладовую, значит, свою переживаешь?<\/p><p><strong>Староста<\/strong>: А даже если и так? Я в той кладовой все нажил честным трудом!<\/p><p><strong>Мастер:<\/strong> Трудом, ну-ну!<\/p><\/p>\n",
+            "outputs": [
+                "6fa34cee-aa86-42e8-ad7f-0ab6a62a2c30"
+            ],
+            "autoHeight": true,
+            "components": [
+                "1b6128ea-3958-4119-8e26-e1cd660a4087",
+                "e71ce543-c55c-418a-b553-9f2a6ba551d1"
+            ]
+        },
+        "96c09ae7-4b60-49a9-a6f2-8ab705a226e9": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Диалог с отцом<\/p>",
+            "assets": {
+                "cover": {
+                    "id": "b9fbf15a-fccd-40a6-9171-770a10768ff0"
+                }
+            },
+            "content": "<p><strong>Дана: <\/strong>Хоть и ничего не понятно, но спокойнее почему то стало, правда теперь кажется что с миром что то не так идет.<p><strong>Акке: <\/strong>Ну так спрашиваешь. С миром то точно что то не так, а это значит нельзя все оставлять как есть, если не мы, то кто? Вот почему твоя мама так хочет это понять, а не закрывать на это глаза, как другие.<\/p><p><strong>Дана: <\/strong>Ну, значит нам надо ее поддержать, раз она у нас самая смелая.<\/p><p><strong>Акке: <\/strong>Да, и удивительная. Я никогда не встречал никого другого такого.<\/p><p><strong>Дана:<\/strong> А как же я?<\/p><p>Дана даже немного рассмеялась.<\/p><\/p>\n",
+            "outputs": [
+                "ab3e0156-0738-4a40-a4b4-f5d6f1b93b0d"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "96d00c52-0947-4a5a-89a9-99308bbddfb5": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "ad8e44de-2fbf-4936-a1be-3c3fb8bfd219"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Да что тут такого? Староста наш смутный тип, у такого само небо велело что-нибудь взять. Или ты друзьям не доверяешь?<\/p>\n",
+            "outputs": [
+                "20ff3f16-d523-43de-99df-0bc95050279f",
+                "f4690d18-0133-40b5-a087-18c73ef78802"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "96e88e8d-5496-4d9f-89ce-cf292a0377f7": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Вот же ты хмурая какая сегодня!<\/p>\n",
+            "outputs": [
+                "6794bf1f-2488-4f43-b86e-64ff8daa7379"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "96fbe10f-aa9f-4707-aa7d-7608c6f57ad4": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Дана:<\/strong> Да, папа всегда говорил про чудезверей. Они ему очень нравились, и он почему-то считал, что они очень важны. Он даже в путешествия отправлялся, чтобы их увидеть. А вот в деревне все их боятся...<p><strong>Мастер Крыльев:<\/strong> Ну, положим, не все... (бережно запускает следующего змея) Однако ж, чудезвери - они духи этих земель. А ведь это духи раскололи материк на летучие острова, так говорят сказания.<\/p><\/p>\n",
+            "outputs": [
+                "645368e7-1913-407b-8ad9-6da1d0234de8",
+                "3d95f9a0-1dd0-460c-8043-8aa0219efd95"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "9ef00f8d-c5b3-4bf1-b337-16fc918405d4": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Диалог с отцом<\/p>",
+            "assets": {
+                "cover": {
+                    "id": "b9fbf15a-fccd-40a6-9171-770a10768ff0"
+                }
+            },
+            "content": "<p><strong>Акке:<\/strong> Не знаю, дочь. Вот мама твоя, наверное, могла бы сказать, но ты за меня то не переживай, я вон тебя воспитал, с этими в легкую справлюсь.<p>Акке засмеялся и потрепал дочь по голове, явно пытаясь смягчить атмосферу, но Дана всё не отставала.<\/p><p>Дана: А ты тогда скажи, что она бы сказала. Ты же всегда в детстве мне говорил.<\/p><p>Акке: Хм, ну ладно. Мама сказала бы: \"Дочка, не нужно мерить духов линейками и страхами. Есть что-то, что течет через наш мир, как река. Все, что ни есть на свете - это как пузырьки и вихри в воде этой реки. Мы, люди, не замечаем, что мы - часть реки, а вот духи помнят об этом всегда\".<\/p><p>Дана приподняла одну бровь посмотрев на отца и усмехнувшись.<\/p><\/p>\n",
+            "outputs": [
+                "278a123b-2259-4988-a5c6-5c1b00092dea"
+            ],
+            "autoHeight": false,
+            "components": []
+        },
+        "a0bf3519-8e21-45f6-88e4-6e99cd6d2b7d": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p><strong>Тётя Эльза<\/strong>: Да про то, что он с духами он все время цацкался. Сразу было понятно, что до добра это не доведет. И потом, он вечно шастал по чужим землям. А ведь всякому понятно, что с чужаками надо держать ухо востро.<p><strong>Марта<\/strong>: Ты, тетя Эльза, больше старосту слушай.<\/p><p><strong>Тётя Эльза<\/strong>: А что? Староста дело говорит. Если б твой отец поменьше по чужим землям мотался, то никуда и не пропал бы.<\/p><p><\/p><\/p>\n",
+            "outputs": [
+                "27f95cb0-092d-4f81-ad28-c42dbe12009e"
+            ],
+            "autoHeight": false,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "abd77880-6fe2-4a82-91a6-ee367d0cf6cf": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Продолжение в кладовой<\/p>",
+            "assets": {
+                "cover": {
+                    "id": "8e3044cc-23c2-4aec-8707-f83589c55708"
+                }
+            },
+            "content": "<p>В этот момент Дана нечаянно с грохотом опрокидывает один из ящиков<p><strong>Марта:<\/strong> (шепотом) Ну ты и косолапая! Все, бежим от сюда!<\/p><\/p>\n",
+            "outputs": [
+                "f2b624fb-9c9d-4583-abfa-b84e6c1b2b82",
+                "ea45728f-1a1b-470e-a0bf-a284c479e303"
+            ],
+            "autoHeight": false,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "b10c4bcb-bd91-42c3-8335-7f4935a5dd2e": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "c0116fe5-b5c0-4909-a73c-727f794b3e92"
+                }
+            },
+            "content": "<p>Дана и Марта выскакивают в окно и со всех ног удирают через сад старосты. Оглянувшись через плечо, Дана видит мастера крыльев, выглядывающего в окно кладовой.<\/p>\n",
+            "outputs": [
+                "c684dbd1-7c18-47f8-9148-ede7de5a7a23"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "b3bbe3ea-70be-431c-9a58-04121e921388": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "ad8e44de-2fbf-4936-a1be-3c3fb8bfd219"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Это все эти старые хрычи во главе со старостой! Заладили свое: чужаков надо остерегаться, с чужаками лучше дела не иметь! А между тем, заметь, у старосты меха да каменья явно не с этого острова.<p><strong>Дана<\/strong>: Да, вот он-то, поди, полбу на солнцеворот не ест!<\/p><p><strong>Марта<\/strong>: Слушай, а давай навестим его кладовую! Поди что найдем чего-нибудь повкуснее, чем здесь.<\/p><\/p>\n",
+            "outputs": [
+                "9eef1ce4-dcdb-4665-9596-d3bb87b939f4",
+                "c7c44a9a-93e3-42cb-82ba-d91dd586c50c"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "b5852758-f45b-42e4-9c8e-dadda9725f55": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Эх, поведешься с тобой... Ладно, так и быть. Только если она нас теперь отправит котлы чистить, чур, ты сама этим займешься.<\/p>\n",
+            "outputs": [
+                "2b3864a7-3665-4328-acd0-5385c7cb89dd",
+                "0829c824-d327-4caf-891b-c691d0f9ad42"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "b6f98135-f1c2-4d07-a87c-c9443bb94bce": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Хм! Просто так он крылья делать не будет. Он дядька хороший, но он у разбитого корыта, ведь летают сейчас мало. У тебя есть чем ему заплатить?<p><strong>Дана<\/strong>: Мы с папой тоже не очень богато жили...<\/p><p><strong>Марта<\/strong>: Знаешь что? Давай потихоньку \"позаимствуем\" что-нибудь у старосты? У того не убудет - посмотри, какие он перстни везде таскает!<\/p><\/p>\n",
+            "outputs": [
+                "0578f601-4478-43b0-8017-ff9421e11019",
+                "2213f946-8b32-4492-896a-afc72646ea90",
+                "e660ae1f-9187-481b-b927-519a85ed145a",
+                "26908501-e6ed-40b0-9dde-e2624185547b"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "b917df1c-3ea4-4e9d-a457-bd803564e986": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "ad8e44de-2fbf-4936-a1be-3c3fb8bfd219"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Точно, я ведь хотела показать тебе одного чудака!<\/p>\n",
+            "outputs": [
+                "fc628fa5-e4d1-43c5-9408-331d0aded954"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "bd71aa55-514c-4883-b2d5-6b5772d3a73c": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p>Марта сердито смотрит на Дану<\/p>\n",
+            "outputs": [
+                "96fedbe6-01bc-45f4-9697-f9839626dfa0"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "c1b1b2c5-61e9-446e-b9f6-98e3f672316b": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "ad8e44de-2fbf-4936-a1be-3c3fb8bfd219"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Да, с тех пор, как мы стали меньше торговать, нормально поесть стало невозможно!<\/p>\n",
+            "outputs": [
+                "06c2ba8c-ba8a-4fe3-bbb9-0c13d0f264f6",
+                "4abc0f23-d6e2-4ca6-ad94-67084dfe320a"
+            ],
+            "autoHeight": false,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "c5d2a465-f65f-4083-8b78-d60c7199a204": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Ты отца хочешь повидать или нет? Да и староста наш - смутный тип. Все говорит про то, что нельзя иметь дела с чужаками, а у самого одежда да каменья явно не с нашего острова! И с папой твоим он не очень-то ладил, разве я не права?<\/p>\n",
+            "outputs": [
+                "67bddbbb-1676-4522-90d3-ef845e5886bc",
+                "46d3777a-7b26-4c45-8bfc-43b9effbd6e6"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "d08e548c-2d91-4831-932e-9a78957f331f": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p><strong>Тётя Эльза<\/strong>: Вот вас бы посадили готовить на всю деревню, посмотрим, как бы вы веселились!<\/p>\n",
+            "outputs": [
+                "e791422e-4686-42b1-9df3-abd6f9796256"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "d608a39a-d3df-42ac-ba90-d00e0d1b9291": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\"><\/p>",
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Тетя Эльза, что у тебя есть вкусного?<p><strong>Тётя Эльза<\/strong>: Вкусного? Ну вот, в этом котле гречка, а в том - полба.<\/p><\/p>\n",
+            "outputs": [
+                "9d68ffaf-3329-4c1b-891e-8e933cdb2c44",
+                "a1ec6947-f591-42a3-b290-364d8dc33a7a"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "d7b269e2-4f02-432f-ae8d-73828dad13c5": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Дана:<\/strong> Почему так?<p><strong>Мастер Крыльев<\/strong>: На островах стали сторониться друг друга. Непростые времена...<\/p><p><strong>Дана:<\/strong> Что значит, непростые?<\/p><p><strong>Мастер Крыльев<\/strong>: Что-то не то стало с природой. Точно магия уходит из нашей земли. То ливень, то засуха. Горбатый остров, говорят, вообще опустился в океан. Те, кого поприжало на их островах, стали подаваться в пираты. Оттого чужакам и всему чужому сейчас не очень-то верят.<\/p><\/p>\n",
+            "outputs": [
+                "a74543a2-7778-431e-b9a5-204753558c03",
+                "796cf9d2-a299-4556-b392-78c19507a5a3"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "d7f4487a-117a-4676-b328-b85aa092cd1b": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Мастер Крыльев:<\/strong> Ну, не скажу дурного слова про твоего отца. Он как-никак мой лучший заказчик. Умеет оценить хорошие крылья... Правда, и то сказать, не лучшее время сейчас летать меж островами.<\/p>\n",
+            "outputs": [
+                "e2dfec72-dd67-4535-ad76-84b92c3bb91f"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "d819ce29-815b-4029-a053-854319ce1b2d": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: (шепотом) Дана, ты с ума сошла? Я не хочу тут застрять на весь день!<\/p>\n",
+            "outputs": [
+                "16fccacd-8dd4-43ae-9424-0d1ed18f416d",
+                "54edab7d-2715-4e32-9cea-e46d7cea7f8c"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "d89a4f89-5837-4fde-bffd-1be4be52e680": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "8e3044cc-23c2-4aec-8707-f83589c55708"
+                }
+            },
+            "content": "<p>Когда они оказываются в кладовой то раскрывают рты. С потолка свисают копченые окорока, по углам стоят бочки с медом, вдоль стен стоят красивые узорчатые сапоги, на полках сложены богатые одежды. Можно даже видеть несколько комплектов крыльев, на которых осел толстый слой пыли.<p><strong>Марта<\/strong>: А староста-то не бедствует!<\/p><p><strong>Дана<\/strong>: Никогда не видела таких вещей!<\/p><p><strong>Марта<\/strong>: У нас на острове их не делают. Старый плут прибрал к рукам всю торговлю.<\/p><\/p>\n",
+            "outputs": [
+                "5275ad36-990d-4fcb-b483-f83e526446a0"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "d9c4c49a-8c70-493f-88e2-23fd2fc40036": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "8e3044cc-23c2-4aec-8707-f83589c55708"
+                }
+            },
+            "content": "<p><strong>Староста<\/strong>: Тоже мне, нашел проблему! Таким темпом он будет опускаться еще сто лет. На наш век хватит, а там молодые что-нибудь придумают. А если ты будешь тут панику поднимать, то они все быстро утекут отсюда - и кто тогда позаботится о наших старых костях?<p><strong>Мастер<\/strong>: Так ведь если бы молодые летали на другие острова, то поди они бы и разузнали, что происходит здесь с магией, почему наш остров падает. Мало ли мудреных наук знают в далеких землях?<\/p><p><strong>Староста<\/strong>: Магия, чужеземные премудрости - нашел, чем забивать голову! Это все не нашего ума вещи. Если острову суждено упасть, то так оно и будет, и ничего мы с этим не поделаем...<\/p><\/p>\n",
+            "outputs": [
+                "85f4474b-77ee-454f-8279-955a3341127c"
+            ],
+            "autoHeight": true,
+            "components": [
+                "1b6128ea-3958-4119-8e26-e1cd660a4087",
+                "e71ce543-c55c-418a-b553-9f2a6ba551d1"
+            ]
+        },
+        "df0ceda7-1397-4e99-92d1-b93fc053a10f": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Старт<\/p>",
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Крутые у тебя очки!<p><strong>Дана:<\/strong> Это папины, я их на память ношу.<\/p><p><strong>Марта:<\/strong> Скучаешь по нему?<\/p><p><strong>Дана:<\/strong> Я уж на зимний солнцеворот загадывала, чтоб он вернулся, только что толку...<\/p><p><strong>Марта:<\/strong> Давай в этот раз вместе загадаем, чтобы он вернулся! Если у желания вдвое больше силы будет, то верняк сработает!<\/p><\/p>\n",
+            "outputs": [
+                "7e9f10b1-c4e8-4368-aadc-62586de6ad81",
+                "965220da-daa8-4c90-bb22-199801e07b5a"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "e518dd55-6101-4bed-89c6-73fac5c90ef7": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: Ого, какая ты серьезная!<\/p>\n",
+            "outputs": [
+                "b81fc123-5825-472b-b8c3-fad07213f646"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        },
+        "e52df0c0-9870-4c06-bf2c-6a60d363e2ec": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>:М: Вот-вот! Неужто к празднику ничего нет получше?<p><strong>Тётя Эльза<\/strong>: Тоже мне, нашлись привереды! Вот посадить бы вас готовить на всю деревню!<\/p><\/p>\n",
+            "outputs": [
+                "0d33ece6-9afc-4ef1-8e9c-ea63639c0c54"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "edf14a2b-7e6e-47c7-8387-ce12afc04e02": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Мастер Крыльев<\/strong>: Хм, не знаю, Дана. Смотри, не попади в какую-нибудь дурную историю. Не нравится мне это дело.<\/p>\n",
+            "outputs": [
+                "7f84cfad-4789-4aae-9067-92f6320f2d0c"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "f0d5cb87-d63c-4504-8440-275a9acfc7b2": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Мастер Крыльев:<\/strong> Ну, уж я-то не жалуюсь. Я ведь крылья людям делаю. Правда, в последнее время не так много охотников...<\/p>\n",
+            "outputs": [
+                "8aa7b687-d736-4115-b559-9208d58a8343"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "f41fa996-b3fa-4a01-b0c2-5660fa1b7820": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Диалог с отцом<\/p>",
+            "assets": {
+                "cover": {
+                    "id": "b9fbf15a-fccd-40a6-9171-770a10768ff0"
+                }
+            },
+            "content": "<p><strong>Дана:<\/strong> Было бы сильно конечно, если они какие то волшебные. Может, тогда, знали бы где мама?<p>Акке устроился рядом, задумчиво жуя бутерброд наливая обоим чай.<\/p><p><strong>Акке:<\/strong> Ну.. Данка, я же сказал волшебство, а не духов. К тому же, мне что-то кажется, что мама все таки сильно дальше Двурогого острова, лисёнок, туда не знаю уж долетят ли светляки.<\/p><p>На какое то время оба замолчали, а потом послышалось тихое..<\/p><p><\/p><\/p>\n",
+            "outputs": [
+                "8ed323e0-9ecf-4138-9555-8d37eba42395"
+            ],
+            "autoHeight": true,
+            "components": []
+        },
+        "f5461ca9-b6b1-4bea-bd16-80c45f273b3d": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Диалог с отцом<\/p>",
+            "assets": {
+                "cover": {
+                    "id": "b9fbf15a-fccd-40a6-9171-770a10768ff0"
+                }
+            },
+            "content": "<p><strong>Дана: <\/strong>А точно... с нами всеми всё будет в порядке, с тобой, с ней?<p><strong>Акке: <\/strong>За нас не беспокойся, мы не пропадем. К осени уж точно ее найду. Уследишь за домом до осени-то?<\/p><p><strong>Дана: <\/strong>Конечно, услежу!<\/p><p><strong>Акке:<\/strong> Ну тогда ладушки, видишь как у нас схвачено.<\/p><\/p>\n",
+            "outputs": [
+                "03b8f7c4-86c2-41a9-bde7-e8776d88d69f"
+            ],
+            "autoHeight": true,
+            "components": [],
+            "linkedBoard": "f15aa2bc-22ab-4a6b-9a55-85f6e73b6fe7"
+        },
+        "f78845ce-a6f3-40c3-917e-5c829fd171f3": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28"
+                }
+            },
+            "content": "<p><strong>Тётя Эльза<\/strong>: Все-таки вы славные ребята, Марта и Дана! Ты, Дана, прямо как твой папа.<p><strong>Дана<\/strong>: Да?<\/p><p><strong>Тётя Эльза<\/strong>: Да, он тоже всем любил помогать. Хороший он был человек, если не смотреть на его странности.<\/p><p><strong>Дана<\/strong>: Ты про что, тетя Эльза?<\/p><p><\/p><\/p>\n",
+            "outputs": [
+                "02c4ab58-0dcc-4eff-9180-294c615e41cf"
+            ],
+            "autoHeight": false,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702"
+            ]
+        },
+        "faad75b7-79dc-4889-8046-a4892f7c8eb5": {
+            "theme": "default",
+            "title": "<p style=\"margin-left: 0px\">Intro<\/p>",
+            "assets": {
+                "cover": {
+                    "id": "07de7ba5-b76f-4816-bdc1-f3f9dbdc7201"
+                }
+            },
+            "content": "<p>На одном из таких островов и начинается наша история о Дане и её приключениях ...<\/p>\n",
+            "outputs": [
+                "cf97c872-a590-4c9f-9506-7a2e8caad9f6"
+            ],
+            "autoHeight": false,
+            "components": []
+        },
+        "fefe58ca-f314-410e-9be6-0ef1fa4ae0a4": {
+            "theme": "default",
+            "title": null,
+            "assets": {
+                "cover": {
+                    "id": "f0d0d6d4-2ad7-443c-a802-568a628e1b48"
+                }
+            },
+            "content": "<p><strong>Марта<\/strong>: М: Да все будет шито-крыто! Ты что, мне не доверяешь?<\/p>\n",
+            "outputs": [
+                "145e13a5-0a3b-48b0-a597-d1c616fd877e"
+            ],
+            "autoHeight": true,
+            "components": [
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305"
+            ]
+        }
+    },
+    "jumpers": {
+        "00276dcc-bf5e-4819-b3b3-6317e783e7f6": {
+            "elementId": null
+        },
+        "03e4ebb2-193c-400f-8221-ec9e0e04ae49": {
+            "elementId": "4b909bb6-4b59-4cd0-99e5-3e24c1653abb"
+        },
+        "21a59555-0917-45fb-becc-c830d59ccaf7": {
+            "elementId": null
+        },
+        "28feea3e-cfeb-455c-95fe-9152b886a30a": {
+            "elementId": "74281df4-1121-4aef-8c15-79cf596bf6ce"
+        },
+        "43d9a0ba-2e24-4073-bca3-fea2e4dead09": {
+            "elementId": "7b03ac81-bb21-4e6e-bbe2-416ebc290298"
+        },
+        "46ccee6d-8be3-4251-af09-026274dbf088": {
+            "elementId": "abd77880-6fe2-4a82-91a6-ee367d0cf6cf"
+        },
+        "51957431-ff4f-47e3-b9e5-31a8a45cc5b0": {
+            "elementId": null
+        },
+        "521a2ebe-2bb4-40ff-8c10-31a6750f9946": {
+            "elementId": "468b8d9a-e59f-4789-ab37-12559497faab"
+        },
+        "6ebf195a-46a1-41ab-9b4b-52ed3c9199d7": {
+            "elementId": null
+        },
+        "74620782-d5f4-4d2b-ab3d-83509e6b211e": {
+            "elementId": "df0ceda7-1397-4e99-92d1-b93fc053a10f"
+        },
+        "76d71d8a-e148-4327-9170-14e613471c9e": {
+            "elementId": null
+        },
+        "950ff9d3-0c70-4aa6-8ced-6b79e72971ee": {
+            "elementId": "6d3c5453-2818-4943-b995-6edcdc639cd4"
+        },
+        "b89c1921-92b6-4425-a722-7ed1e9e359b8": {
+            "elementId": "6d3c5453-2818-4943-b995-6edcdc639cd4"
+        },
+        "be343f3d-e556-4d3d-86c6-959320ca74b6": {
+            "elementId": null
+        }
+    },
+    "connections": {
+        "013bbb5a-bfdc-4410-b00f-5a3d8e9b4d45": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "8d319d39-d4b3-447f-8955-2e1e83e6dfc2",
+            "targetid": "c1b1b2c5-61e9-446e-b9f6-98e3f672316b",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "02c4ab58-0dcc-4eff-9180-294c615e41cf": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "f78845ce-a6f3-40c3-917e-5c829fd171f3",
+            "targetid": "a0bf3519-8e21-45f6-88e4-6e99cd6d2b7d",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "03b8f7c4-86c2-41a9-bde7-e8776d88d69f": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "f5461ca9-b6b1-4bea-bd16-80c45f273b3d",
+            "targetid": "43d9a0ba-2e24-4073-bca3-fea2e4dead09",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "0578f601-4478-43b0-8017-ff9421e11019": {
+            "type": "Bezier",
+            "label": "<p>Ну не знаю, нехорошо как-то получается<\/p>\n",
+            "theme": "default",
+            "sourceid": "b6f98135-f1c2-4d07-a87c-c9443bb94bce",
+            "targetid": "c5d2a465-f65f-4083-8b78-d60c7199a204",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "06ae9252-11c1-4f55-a03e-2b6bb641a87d": {
+            "type": "Bezier",
+            "label": "<p>Может, помочь чем-то тебе?<\/p>\n",
+            "theme": "default",
+            "sourceid": "8b237b09-e507-4c6c-8fba-0b8e4b85d9cf",
+            "targetid": "d819ce29-815b-4029-a053-854319ce1b2d",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "06c2ba8c-ba8a-4fe3-bbb9-0c13d0f264f6": {
+            "type": "Bezier",
+            "label": "<p>Ладно, не вешай нос! Пошли, еще чем-нибудь интересным займемся!<\/p>\n",
+            "theme": "default",
+            "sourceid": "c1b1b2c5-61e9-446e-b9f6-98e3f672316b",
+            "targetid": "b917df1c-3ea4-4e9d-a457-bd803564e986",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "0829c824-d327-4caf-891b-c691d0f9ad42": {
+            "type": "Bezier",
+            "label": "<p>Спасибо, Марта!<\/p>\n",
+            "theme": "default",
+            "sourceid": "b5852758-f45b-42e4-9c8e-dadda9725f55",
+            "targetid": "0071a673-6299-4819-afcc-90e4c3a66563",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "0882d8dc-1a77-4ed2-8779-4877d24d9813": {
+            "type": "Bezier",
+            "label": "<p>Давай всё тако сходим к мастеру и попросим сделать мне крылья, чтобы найти папу<\/p>\n",
+            "theme": "default",
+            "sourceid": "414ad622-878e-4f67-9133-86cbb66dda13",
+            "targetid": "6ebf195a-46a1-41ab-9b4b-52ed3c9199d7",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "0a3a6dd7-a185-4772-91c2-fe951ba4c626": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "038fe590-66dc-48de-90e0-7581e59c7d1d",
+            "targetid": "791c60c7-6cb2-40ba-8c79-4f629c2fc206",
+            "sourceFace": "right",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "0ac3aa34-a04b-47dd-921a-f62c36f1298d": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "6c47b3ac-6521-4fdd-9de7-c99f59533aac",
+            "targetid": "824e5726-be2c-4c56-8393-191fdc1cec53",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "0d33ece6-9afc-4ef1-8e9c-ea63639c0c54": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "e52df0c0-9870-4c06-bf2c-6a60d363e2ec",
+            "targetid": "8b237b09-e507-4c6c-8fba-0b8e4b85d9cf",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "0e973e6a-b871-424e-99e9-e1bb8ab9d948": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "49aeef39-f41d-4f2d-a9fa-aadc65fc5d97",
+            "targetid": "414ad622-878e-4f67-9133-86cbb66dda13",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "10fecf8b-dcf2-461a-9b5a-a4a8b1667562": {
+            "type": "Bezier",
+            "label": "<p>Не... У меня есть дело. Нужно как-то убедить мастера сделать мне крылья, чтобы найти папу.<\/p>\n",
+            "theme": "default",
+            "sourceid": "824e5726-be2c-4c56-8393-191fdc1cec53",
+            "targetid": "b6f98135-f1c2-4d07-a87c-c9443bb94bce",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "145e13a5-0a3b-48b0-a597-d1c616fd877e": {
+            "type": "Bezier",
+            "label": "<p>Доверяю, но все равно не буду<\/p>\n",
+            "theme": "default",
+            "sourceid": "fefe58ca-f314-410e-9be6-0ef1fa4ae0a4",
+            "targetid": "44c6fc28-ed01-4169-8094-bfd0f2be80c5",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "161fef37-c47f-4dd3-85ff-479dd14d5814": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "1ed55097-4b9a-470f-bd44-9705cdc75b62",
+            "targetid": "7092fd6e-ef2c-4891-8206-84e9f1073734",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "16fccacd-8dd4-43ae-9424-0d1ed18f416d": {
+            "type": "Bezier",
+            "label": "<p>Марта, я хочу помочь тете Эльзе. Она всегда так хорошо к нам относилась!<\/p>\n",
+            "theme": "default",
+            "sourceid": "d819ce29-815b-4029-a053-854319ce1b2d",
+            "targetid": "b5852758-f45b-42e4-9c8e-dadda9725f55",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "1df493bc-1e45-4f45-8563-a6512cbe0cd3": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "7e3b2010-c6a3-425d-a4b9-2b5728d0f780",
+            "targetid": "96fbe10f-aa9f-4707-aa7d-7608c6f57ad4",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "20ff3f16-d523-43de-99df-0bc95050279f": {
+            "type": "Bezier",
+            "label": "<p>Ну ладно<\/p>\n",
+            "theme": "default",
+            "sourceid": "96d00c52-0947-4a5a-89a9-99308bbddfb5",
+            "targetid": "76d71d8a-e148-4327-9170-14e613471c9e",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "2213f946-8b32-4492-896a-afc72646ea90": {
+            "type": "Bezier",
+            "label": "<p>Ты мне предлагаешь воровство? Нет, Марта, не дело это<\/p>\n",
+            "theme": "default",
+            "sourceid": "b6f98135-f1c2-4d07-a87c-c9443bb94bce",
+            "targetid": "c5d2a465-f65f-4083-8b78-d60c7199a204",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "257d487b-0bb5-44cd-97c4-bd5feaf79ad5": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "5add28c7-3c6c-471c-a48d-f8384be432b0",
+            "targetid": "96fbe10f-aa9f-4707-aa7d-7608c6f57ad4",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "26908501-e6ed-40b0-9dde-e2624185547b": {
+            "type": "Bezier",
+            "label": "<p>Давай!<\/p>\n",
+            "theme": "default",
+            "sourceid": "b6f98135-f1c2-4d07-a87c-c9443bb94bce",
+            "targetid": "28feea3e-cfeb-455c-95fe-9152b886a30a",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "270fc00c-d78f-4e12-8ba0-28d47adf3b7a": {
+            "type": "Bezier",
+            "label": "<p>открыла новый вид лягушек и назвала \"Пупырчатые мухоеды\"<\/p>\n",
+            "theme": "default",
+            "sourceid": "2b644f07-1bdf-42a3-89bf-bd064a71989b",
+            "targetid": "6c47b3ac-6521-4fdd-9de7-c99f59533aac",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "278a123b-2259-4988-a5c6-5c1b00092dea": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "9ef00f8d-c5b3-4bf1-b337-16fc918405d4",
+            "targetid": "96c09ae7-4b60-49a9-a6f2-8ab705a226e9",
+            "sourceFace": "right",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "27f95cb0-092d-4f81-ad28-c42dbe12009e": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "a0bf3519-8e21-45f6-88e4-6e99cd6d2b7d",
+            "targetid": "094b776b-ea37-41d7-9412-9da0abd7f191",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "294ddc5b-d928-4f28-9d8d-c58a0959b022": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "094b776b-ea37-41d7-9412-9da0abd7f191",
+            "targetid": "7998cea6-7a17-43bb-b157-7d4522235e1a",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "2951a37c-b8b7-4db4-bc5a-0d610d00902b": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "32ce7d6a-8167-4d7f-870b-89a655ba38dd",
+            "targetid": "6f35180f-1257-4a8d-90ae-58f2cd4dc8b4",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "2b3864a7-3665-4328-acd0-5385c7cb89dd": {
+            "type": "Bezier",
+            "label": "<p>Еще чего!<\/p>\n",
+            "theme": "default",
+            "sourceid": "b5852758-f45b-42e4-9c8e-dadda9725f55",
+            "targetid": "bd71aa55-514c-4883-b2d5-6b5772d3a73c",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "2bdfdec3-3b4a-4214-a53b-14ef87e5637f": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "7092fd6e-ef2c-4891-8206-84e9f1073734",
+            "targetid": "950ff9d3-0c70-4aa6-8ced-6b79e72971ee",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "2fea18d1-86ce-410c-8b2d-12c0431a57d6": {
+            "type": "Bezier",
+            "label": "<p>Твой знакомый пропал, а ты оцениваешь это в деньгах? Вот же ты барыга!<\/p>\n",
+            "theme": "default",
+            "sourceid": "29aa657d-1349-4de3-95dd-b40d49e03acc",
+            "targetid": "32ce7d6a-8167-4d7f-870b-89a655ba38dd",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "321366ab-24f1-4861-bd15-7ed18e036395": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "0071a673-6299-4819-afcc-90e4c3a66563",
+            "targetid": "5347b9af-a538-48c1-89af-051efc6dc81f",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "340e6731-b8bc-47f3-a2f9-24d5a73cc612": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "791c60c7-6cb2-40ba-8c79-4f629c2fc206",
+            "targetid": "0e1fde1e-1914-496f-b99d-8332466d792c",
+            "sourceFace": "right",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "39836d13-d0c8-4d41-ba36-4be932f44afe": {
+            "type": "Bezier",
+            "label": "<p>Хорошо, мастер, не буду<\/p>\n",
+            "theme": "default",
+            "sourceid": "487249b8-9843-417f-96e6-ee6e026b62fc",
+            "targetid": "6f35180f-1257-4a8d-90ae-58f2cd4dc8b4",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "3d95f9a0-1dd0-460c-8043-8aa0219efd95": {
+            "type": "Bezier",
+            "label": "<p>Да, папа и правда был немного того насчет духов. Еще и меня тут оставил одну, чтобы их изучать!<\/p>\n",
+            "theme": "default",
+            "sourceid": "96fbe10f-aa9f-4707-aa7d-7608c6f57ad4",
+            "targetid": "d7f4487a-117a-4676-b328-b85aa092cd1b",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "3d9eb75c-96fd-4842-bb43-33a9c67c29f9": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "5347b9af-a538-48c1-89af-051efc6dc81f",
+            "targetid": "f78845ce-a6f3-40c3-917e-5c829fd171f3",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "3f709db7-59dd-49b1-abab-4bd88b57dbbc": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "87e94d2a-5387-4f3e-8768-7ee975378042",
+            "targetid": "8d319d39-d4b3-447f-8955-2e1e83e6dfc2",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "46d3777a-7b26-4c45-8bfc-43b9effbd6e6": {
+            "type": "Bezier",
+            "label": "<p>Ну ладно, пошли!<\/p>\n",
+            "theme": "default",
+            "sourceid": "c5d2a465-f65f-4083-8b78-d60c7199a204",
+            "targetid": "28feea3e-cfeb-455c-95fe-9152b886a30a",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "48001291-b9e0-42f3-8463-eed70213c06e": {
+            "type": "Bezier",
+            "label": "<p>Мастер, сделай и мне крылья! Я полечу его искать. Вдруг с ним что-то случилось?<\/p>\n",
+            "theme": "default",
+            "sourceid": "487249b8-9843-417f-96e6-ee6e026b62fc",
+            "targetid": "29aa657d-1349-4de3-95dd-b40d49e03acc",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "49ce09b7-930e-437f-99bc-2474406278c4": {
+            "type": "Bezier",
+            "label": "<p>А вот, слава небесам, посадили-то не нас! Приятного дня на кухне!Ладно, не серчай, тетя Эльза!<\/p>\n",
+            "theme": "default",
+            "sourceid": "8b237b09-e507-4c6c-8fba-0b8e4b85d9cf",
+            "targetid": "8d319d39-d4b3-447f-8955-2e1e83e6dfc2",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "4a2a14af-7350-4301-948c-60768b60d029": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "4880368e-2bbe-4a22-8371-6732840a67d5",
+            "targetid": "9ef00f8d-c5b3-4bf1-b337-16fc918405d4",
+            "sourceFace": "right",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "4abc0f23-d6e2-4ca6-ad94-67084dfe320a": {
+            "type": "Bezier",
+            "label": "<p>И не говори!<\/p>\n",
+            "theme": "default",
+            "sourceid": "c1b1b2c5-61e9-446e-b9f6-98e3f672316b",
+            "targetid": "b3bbe3ea-70be-431c-9a58-04121e921388",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "4dccd5d0-e737-4984-b3ad-cf20dd6dc953": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "4b909bb6-4b59-4cd0-99e5-3e24c1653abb",
+            "targetid": "d608a39a-d3df-42ac-ba90-d00e0d1b9291",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "513a4db5-be8f-4ed1-ba93-759f52c73d20": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "53365156-743b-42de-bc75-7fbfeae20c11",
+            "targetid": "6bd4c763-7fed-43a4-94d7-5cfbd2bc1b46",
+            "sourceFace": "right",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "5275ad36-990d-4fcb-b483-f83e526446a0": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "d89a4f89-5837-4fde-bffd-1be4be52e680",
+            "targetid": "2ead919a-27fc-4965-b252-d651d95e54a4",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "54edab7d-2715-4e32-9cea-e46d7cea7f8c": {
+            "type": "Bezier",
+            "label": "<p>Ну ладно<\/p>\n",
+            "theme": "default",
+            "sourceid": "d819ce29-815b-4029-a053-854319ce1b2d",
+            "targetid": "87e94d2a-5387-4f3e-8768-7ee975378042",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "56a51d4e-717a-403a-8502-0350dc93c3ec": {
+            "type": "Bezier",
+            "label": "<p>Хватит о нем, он меня оставил тут одну!<\/p>\n",
+            "theme": "default",
+            "sourceid": "487249b8-9843-417f-96e6-ee6e026b62fc",
+            "targetid": "533e2cab-53f9-40b9-9009-d6809b95c0c3",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "5b930ca0-1bae-4047-8de5-c6294baaf8a6": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "6d4b3667-2333-47b0-a5bb-d14512cd098e",
+            "targetid": "f41fa996-b3fa-4a01-b0c2-5660fa1b7820",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "6071573f-cd00-4e7d-958e-2988253fdf17": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "468b8d9a-e59f-4789-ab37-12559497faab",
+            "targetid": "1ba2bbf9-7841-4357-b176-05055f3ebe10",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "645368e7-1913-407b-8ad9-6da1d0234de8": {
+            "type": "Bezier",
+            "label": "<p>Что же плохого в летучих островах? Люди из-за этого летать научились.<\/p>\n",
+            "theme": "default",
+            "sourceid": "96fbe10f-aa9f-4707-aa7d-7608c6f57ad4",
+            "targetid": "f0d5cb87-d63c-4504-8440-275a9acfc7b2",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "648485dd-d71e-4089-a513-e9be1303458a": {
+            "type": "Bezier",
+            "label": "<p>Сказала нет, значит нет!<\/p>\n",
+            "theme": "default",
+            "sourceid": "7e42da2c-c20f-4a76-97c6-d0bb95b50fc6",
+            "targetid": "015bd3cc-b147-4d17-af68-9bcc97e1ca48",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "6794bf1f-2488-4f43-b86e-64ff8daa7379": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "96e88e8d-5496-4d9f-89ce-cf292a0377f7",
+            "targetid": "2b644f07-1bdf-42a3-89bf-bd064a71989b",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "67bddbbb-1676-4522-90d3-ef845e5886bc": {
+            "type": "Bezier",
+            "label": "<p>Нет, все равно, не буду<\/p>\n",
+            "theme": "default",
+            "sourceid": "c5d2a465-f65f-4083-8b78-d60c7199a204",
+            "targetid": "7e42da2c-c20f-4a76-97c6-d0bb95b50fc6",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "68189d3b-d37b-4bb2-92c5-fc27c311803c": {
+            "type": "Bezier",
+            "label": "<p>Ну ладно, пойдём к старосте!<\/p>\n",
+            "theme": "default",
+            "sourceid": "414ad622-878e-4f67-9133-86cbb66dda13",
+            "targetid": "00276dcc-bf5e-4819-b3b3-6317e783e7f6",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "jumpers"
+        },
+        "691aebf8-4362-493f-9b13-36b156fad8cb": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "015bd3cc-b147-4d17-af68-9bcc97e1ca48",
+            "targetid": "b89c1921-92b6-4425-a722-7ed1e9e359b8",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "6fa34cee-aa86-42e8-ad7f-0ab6a62a2c30": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "8df80eef-deb5-4541-9e30-03308e925a5d",
+            "targetid": "736df511-77a7-4438-9937-a261f2deb1c7",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "715d75fb-bf6a-4f4b-99ea-68d263522531": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "533e2cab-53f9-40b9-9009-d6809b95c0c3",
+            "targetid": "6f35180f-1257-4a8d-90ae-58f2cd4dc8b4",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "74716cec-7cb4-460d-b08a-3b1f69f3e62f": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "7b70c5ff-ff8e-49fa-8821-f460ee1907f7",
+            "targetid": "be343f3d-e556-4d3d-86c6-959320ca74b6",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "796cf9d2-a299-4556-b392-78c19507a5a3": {
+            "type": "Bezier",
+            "label": "<p>Да уж, \"повезло\" нам родиться в такое время! Островам, похоже, крышка, а я и не пожила еще толком<\/p>\n",
+            "theme": "default",
+            "sourceid": "d7b269e2-4f02-432f-ae8d-73828dad13c5",
+            "targetid": "1efb9ce7-b06e-49ba-9cf6-a79b5600436d",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "7e9f10b1-c4e8-4368-aadc-62586de6ad81": {
+            "type": "Bezier",
+            "label": "<p>Звучит конечно как то слишком сказочно, но чего мы теряем? Спасибо тебе!<\/p>\n",
+            "theme": "default",
+            "sourceid": "df0ceda7-1397-4e99-92d1-b93fc053a10f",
+            "targetid": "3b228dc0-4195-4730-859a-b85615f071e7",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "7ea77943-b31c-4d8c-942e-9f199f3691e7": {
+            "type": "Bezier",
+            "label": "<p>Ничего особенного<\/p>\n",
+            "theme": "default",
+            "sourceid": "2b644f07-1bdf-42a3-89bf-bd064a71989b",
+            "targetid": "824e5726-be2c-4c56-8393-191fdc1cec53",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "7f84cfad-4789-4aae-9067-92f6320f2d0c": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "edf14a2b-7e6e-47c7-8387-ce12afc04e02",
+            "targetid": "6f35180f-1257-4a8d-90ae-58f2cd4dc8b4",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "830525d2-fafb-4c74-a09a-d3dd2829f6cf": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "21e8c1f9-36ef-489a-a81d-73314905f46a",
+            "targetid": "487249b8-9843-417f-96e6-ee6e026b62fc",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "85f4474b-77ee-454f-8279-955a3341127c": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "d9c4c49a-8c70-493f-88e2-23fd2fc40036",
+            "targetid": "46ccee6d-8be3-4251-af09-026274dbf088",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "85f7cb78-7edb-46fc-ac35-7812c745e2a9": {
+            "type": "Bezier",
+            "label": "<p>Ну ладно, пошли!<\/p>\n",
+            "theme": "default",
+            "sourceid": "7e42da2c-c20f-4a76-97c6-d0bb95b50fc6",
+            "targetid": "28feea3e-cfeb-455c-95fe-9152b886a30a",
+            "sourceType": "elements",
+            "targetFace": "top",
+            "targetType": "jumpers"
+        },
+        "85ffece9-c83e-428f-b920-32be83d88289": {
+            "type": "Bezier",
+            "label": "<p>Пойдём к этому чудаку!<\/p>\n",
+            "theme": "default",
+            "sourceid": "414ad622-878e-4f67-9133-86cbb66dda13",
+            "targetid": "51957431-ff4f-47e3-b9e5-31a8a45cc5b0",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "jumpers"
+        },
+        "86864496-762a-4772-a64f-85920908ac41": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "00ff3647-fc59-4fcf-9f83-be9043a4956d",
+            "targetid": "53365156-743b-42de-bc75-7fbfeae20c11",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "8999e0b4-5e24-433f-89c5-73f5583db3dc": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "7b70c5ff-ff8e-49fa-8821-f460ee1907f7",
+            "targetid": "21a59555-0917-45fb-becc-c830d59ccaf7",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "8aa7b687-d736-4115-b559-9208d58a8343": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "f0d5cb87-d63c-4504-8440-275a9acfc7b2",
+            "targetid": "d7b269e2-4f02-432f-ae8d-73828dad13c5",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "8d0ac21a-c23a-4c1b-b27d-6c525841a709": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "74281df4-1121-4aef-8c15-79cf596bf6ce",
+            "targetid": "d89a4f89-5837-4fde-bffd-1be4be52e680",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "8ed323e0-9ecf-4138-9555-8d37eba42395": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "f41fa996-b3fa-4a01-b0c2-5660fa1b7820",
+            "targetid": "4880368e-2bbe-4a22-8371-6732840a67d5",
+            "sourceFace": "right",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "91ad5b82-a1e5-4250-aee0-b7eb896dfec7": {
+            "type": "Bezier",
+            "label": "<p>Сказала нет, значит нет!<\/p>\n",
+            "theme": "default",
+            "sourceid": "44c6fc28-ed01-4169-8094-bfd0f2be80c5",
+            "targetid": "015bd3cc-b147-4d17-af68-9bcc97e1ca48",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "965220da-daa8-4c90-bb22-199801e07b5a": {
+            "type": "Bezier",
+            "label": "<p>Я в такое не верю. Давай не фантазировать<\/p>\n",
+            "theme": "default",
+            "sourceid": "df0ceda7-1397-4e99-92d1-b93fc053a10f",
+            "targetid": "96e88e8d-5496-4d9f-89ce-cf292a0377f7",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "96fedbe6-01bc-45f4-9697-f9839626dfa0": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "bd71aa55-514c-4883-b2d5-6b5772d3a73c",
+            "targetid": "5347b9af-a538-48c1-89af-051efc6dc81f",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "99b272bc-50ef-4a54-8d00-379a9f09c044": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "1efb9ce7-b06e-49ba-9cf6-a79b5600436d",
+            "targetid": "487249b8-9843-417f-96e6-ee6e026b62fc",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "9d68ffaf-3329-4c1b-891e-8e933cdb2c44": {
+            "type": "Bezier",
+            "label": "<p>Как надоели уже эти гречка и полба!<\/p>\n",
+            "theme": "default",
+            "sourceid": "d608a39a-d3df-42ac-ba90-d00e0d1b9291",
+            "targetid": "e52df0c0-9870-4c06-bf2c-6a60d363e2ec",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "9eef1ce4-dcdb-4665-9596-d3bb87b939f4": {
+            "type": "Bezier",
+            "label": "<p>Давай!<\/p>\n",
+            "theme": "default",
+            "sourceid": "b3bbe3ea-70be-431c-9a58-04121e921388",
+            "targetid": "76d71d8a-e148-4327-9170-14e613471c9e",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "a124c3b8-aab4-4783-9d90-3771edfb6b05": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "6bd4c763-7fed-43a4-94d7-5cfbd2bc1b46",
+            "targetid": "faad75b7-79dc-4889-8046-a4892f7c8eb5",
+            "sourceFace": "right",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "a1ec6947-f591-42a3-b290-364d8dc33a7a": {
+            "type": "Bezier",
+            "label": "<p>Какая-то ты хмурая сегодня, тетя Эльза! На тебя это не похоже<\/p>\n",
+            "theme": "default",
+            "sourceid": "d608a39a-d3df-42ac-ba90-d00e0d1b9291",
+            "targetid": "d08e548c-2d91-4831-932e-9a78957f331f",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "a56d42af-44a3-4fe0-a25a-ff2b760e202a": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "2ead919a-27fc-4965-b252-d651d95e54a4",
+            "targetid": "521a2ebe-2bb4-40ff-8c10-31a6750f9946",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "a74543a2-7778-431e-b9a5-204753558c03": {
+            "type": "Bezier",
+            "label": "<p>В такие времена как раз людям нужно быть вместе!<\/p>\n",
+            "theme": "default",
+            "sourceid": "d7b269e2-4f02-432f-ae8d-73828dad13c5",
+            "targetid": "21e8c1f9-36ef-489a-a81d-73314905f46a",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "ab3e0156-0738-4a40-a4b4-f5d6f1b93b0d": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "96c09ae7-4b60-49a9-a6f2-8ab705a226e9",
+            "targetid": "f5461ca9-b6b1-4bea-bd16-80c45f273b3d",
+            "sourceFace": "right",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "b0696fc5-2bd7-4993-9929-514440508491": {
+            "type": "Bezier",
+            "label": "<p>Пошли!<\/p>\n",
+            "theme": "default",
+            "sourceid": "824e5726-be2c-4c56-8393-191fdc1cec53",
+            "targetid": "14d963d9-39e5-43a3-8185-64ee37e4efd0",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "b1d602e2-95ad-4dae-a21a-655e30abcb85": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "3b228dc0-4195-4730-859a-b85615f071e7",
+            "targetid": "2b644f07-1bdf-42a3-89bf-bd064a71989b",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "b48f6496-8e45-4782-96f7-cb1435ff2843": {
+            "type": "Bezier",
+            "label": "<p>Ну ладно, пошли!<\/p>\n",
+            "theme": "default",
+            "sourceid": "44c6fc28-ed01-4169-8094-bfd0f2be80c5",
+            "targetid": "28feea3e-cfeb-455c-95fe-9152b886a30a",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "b71b69d3-9d26-410e-9d63-2a98bc51f6c4": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "736df511-77a7-4438-9937-a261f2deb1c7",
+            "targetid": "d9c4c49a-8c70-493f-88e2-23fd2fc40036",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "b81fc123-5825-472b-b8c3-fad07213f646": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "e518dd55-6101-4bed-89c6-73fac5c90ef7",
+            "targetid": "824e5726-be2c-4c56-8393-191fdc1cec53",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "bbc7e216-050f-4245-81d2-a6a1df4df595": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "7b03ac81-bb21-4e6e-bbe2-416ebc290298",
+            "targetid": "038fe590-66dc-48de-90e0-7581e59c7d1d",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "c684dbd1-7c18-47f8-9148-ede7de5a7a23": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "b10c4bcb-bd91-42c3-8335-7f4935a5dd2e",
+            "targetid": "7092fd6e-ef2c-4891-8206-84e9f1073734",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "c7c44a9a-93e3-42cb-82ba-d91dd586c50c": {
+            "type": "Bezier",
+            "label": "<p>Не, давай чем-нибудь еще займемся<\/p>\n",
+            "theme": "default",
+            "sourceid": "b3bbe3ea-70be-431c-9a58-04121e921388",
+            "targetid": "96d00c52-0947-4a5a-89a9-99308bbddfb5",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "cb2dee0e-2fc6-4032-bc2c-394b6599dcb7": {
+            "type": "Bezier",
+            "label": "<p>Ну ладно, раз так.<\/p>\n",
+            "theme": "default",
+            "sourceid": "29aa657d-1349-4de3-95dd-b40d49e03acc",
+            "targetid": "6f35180f-1257-4a8d-90ae-58f2cd4dc8b4",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "cf97c872-a590-4c9f-9506-7a2e8caad9f6": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "faad75b7-79dc-4889-8046-a4892f7c8eb5",
+            "targetid": "6d4b3667-2333-47b0-a5bb-d14512cd098e",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "d186b800-e12e-41fb-8631-124154ce2266": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "6f35180f-1257-4a8d-90ae-58f2cd4dc8b4",
+            "targetid": "74620782-d5f4-4d2b-ab3d-83509e6b211e",
+            "sourceFace": "right",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "d2fa2500-9b89-41fc-9c62-55666370081e": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "14d963d9-39e5-43a3-8185-64ee37e4efd0",
+            "targetid": "03e4ebb2-193c-400f-8221-ec9e0e04ae49",
+            "sourceType": "elements",
+            "targetType": "jumpers"
+        },
+        "dab1f6dc-c356-49db-b1f7-bc1cb68a160e": {
+            "type": "Bezier",
+            "label": "<p>Как живые!<\/p>\n",
+            "theme": "default",
+            "sourceid": "0e1fde1e-1914-496f-b99d-8332466d792c",
+            "targetid": "7e3b2010-c6a3-425d-a4b9-2b5728d0f780",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "df937634-209b-4b7b-8807-525ad3d55cfe": {
+            "type": "Bezier",
+            "label": "<p>Ладно, не серчай, тетя Эльза!<\/p>\n",
+            "theme": "default",
+            "sourceid": "8b237b09-e507-4c6c-8fba-0b8e4b85d9cf",
+            "targetid": "8d319d39-d4b3-447f-8955-2e1e83e6dfc2",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "e21ff768-18fa-4172-96ce-fe6320068ad9": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "1ba2bbf9-7841-4357-b176-05055f3ebe10",
+            "targetid": "8df80eef-deb5-4541-9e30-03308e925a5d",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "e2dfec72-dd67-4535-ad76-84b92c3bb91f": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "d7f4487a-117a-4676-b328-b85aa092cd1b",
+            "targetid": "d7b269e2-4f02-432f-ae8d-73828dad13c5",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "e660ae1f-9187-481b-b927-519a85ed145a": {
+            "type": "Bezier",
+            "label": "<p>Не попасть бы в дурную историю<\/p>\n",
+            "theme": "default",
+            "sourceid": "b6f98135-f1c2-4d07-a87c-c9443bb94bce",
+            "targetid": "fefe58ca-f314-410e-9be6-0ef1fa4ae0a4",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "e791422e-4686-42b1-9df3-abd6f9796256": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "d08e548c-2d91-4831-932e-9a78957f331f",
+            "targetid": "8b237b09-e507-4c6c-8fba-0b8e4b85d9cf",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "ea45728f-1a1b-470e-a0bf-a284c479e303": {
+            "type": "Bezier",
+            "label": "<p>Спрятаться у старосты в саду<\/p>\n",
+            "theme": "default",
+            "sourceid": "abd77880-6fe2-4a82-91a6-ee367d0cf6cf",
+            "targetid": "1ed55097-4b9a-470f-bd44-9705cdc75b62",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "eb7ec106-3d6d-4c7d-a0f4-a3e2f1d6b530": {
+            "type": "Bezier",
+            "label": "<p>Я тебе заплачу!<\/p>\n",
+            "theme": "default",
+            "sourceid": "29aa657d-1349-4de3-95dd-b40d49e03acc",
+            "targetid": "edf14a2b-7e6e-47c7-8387-ce12afc04e02",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "eec9d609-7eb9-4999-83a9-58910b79475b": {
+            "type": "Bezier",
+            "label": "<p>Ну так себе, как и все у нас в деревне<\/p>\n",
+            "theme": "default",
+            "sourceid": "0e1fde1e-1914-496f-b99d-8332466d792c",
+            "targetid": "5add28c7-3c6c-471c-a48d-f8384be432b0",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "elements"
+        },
+        "f2b624fb-9c9d-4583-abfa-b84e6c1b2b82": {
+            "type": "Bezier",
+            "label": "<p>Бежать со всех ног<\/p>\n",
+            "theme": "default",
+            "sourceid": "abd77880-6fe2-4a82-91a6-ee367d0cf6cf",
+            "targetid": "b10c4bcb-bd91-42c3-8335-7f4935a5dd2e",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "f4690d18-0133-40b5-a087-18c73ef78802": {
+            "type": "Bezier",
+            "label": "<p>Доверяю, но все равно не буду, давай <\/p>\n",
+            "theme": "default",
+            "sourceid": "96d00c52-0947-4a5a-89a9-99308bbddfb5",
+            "targetid": "7b70c5ff-ff8e-49fa-8821-f460ee1907f7",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "f7a92d4d-0196-4fd2-b196-c06cbaa09bb6": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "7998cea6-7a17-43bb-b157-7d4522235e1a",
+            "targetid": "49aeef39-f41d-4f2d-a9fa-aadc65fc5d97",
+            "sourceFace": "right",
+            "sourceType": "elements",
+            "targetType": "elements"
+        },
+        "fc628fa5-e4d1-43c5-9408-331d0aded954": {
+            "type": "Bezier",
+            "label": null,
+            "theme": "default",
+            "sourceid": "b917df1c-3ea4-4e9d-a457-bd803564e986",
+            "targetid": "be343f3d-e556-4d3d-86c6-959320ca74b6",
+            "sourceType": "elements",
+            "targetFace": "left",
+            "targetType": "jumpers"
+        },
+        "fd46a8bb-e770-42da-b343-948eb18f1279": {
+            "type": "Bezier",
+            "label": "<p>Занята я<\/p>\n",
+            "theme": "default",
+            "sourceid": "2b644f07-1bdf-42a3-89bf-bd064a71989b",
+            "targetid": "e518dd55-6101-4bed-89c6-73fac5c90ef7",
+            "sourceType": "elements",
+            "targetType": "elements"
+        }
+    },
+    "branches": {},
+    "components": {
+        "1b6128ea-3958-4119-8e26-e1cd660a4087": {
+            "name": "Мастер крыльев",
+            "assets": {
+                "cover": {
+                    "id": "383f85c0-21ea-4235-9689-4f1e6032ae81"
+                }
+            },
+            "attributes": []
+        },
+        "5b48bbb0-9498-4773-a25b-77daec8f4702": {
+            "name": "Селянка",
+            "assets": {
+                "cover": {
+                    "id": "75c20e07-30ca-497e-b95a-f2e0084482eb"
+                }
+            },
+            "attributes": []
+        },
+        "643beab8-de00-4e5e-bad1-e36bed661eae": {
+            "name": "Монах",
+            "assets": {
+                "cover": {
+                    "id": "a58dfc40-cb65-493a-b78d-a7063d1dc68d"
+                }
+            },
+            "attributes": []
+        },
+        "65005bda-15d0-41c5-867f-68c118829f08": {
+            "name": "Root",
+            "root": true,
+            "children": [
+                "e71ce543-c55c-418a-b553-9f2a6ba551d1",
+                "71f479f4-25d1-4723-8e22-6c9bd465a4c4",
+                "643beab8-de00-4e5e-bad1-e36bed661eae",
+                "5b48bbb0-9498-4773-a25b-77daec8f4702",
+                "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305",
+                "1b6128ea-3958-4119-8e26-e1cd660a4087"
+            ]
+        },
+        "71f479f4-25d1-4723-8e22-6c9bd465a4c4": {
+            "name": "Дана",
+            "assets": {
+                "cover": {
+                    "id": "f925c4ac-cc2a-46ff-ad6e-4e8bb3982baa"
+                }
+            },
+            "attributes": [
+                "36e42f33-bae1-47a1-ab34-f93efbbe1dd6"
+            ]
+        },
+        "bf4b2905-d0cf-44ac-8f37-de0cc0b0c305": {
+            "name": "Марта",
+            "assets": {
+                "cover": {
+                    "id": "18b50c77-fe1e-49f6-8ed2-60fe8f272268"
+                }
+            },
+            "attributes": []
+        },
+        "e71ce543-c55c-418a-b553-9f2a6ba551d1": {
+            "name": "Староста",
+            "assets": {
+                "cover": {
+                    "id": "dc09fb98-9cf1-46c2-b4e4-2d6cec3c5a9d"
+                }
+            },
+            "attributes": []
+        }
+    },
+    "attributes": {
+        "36e42f33-bae1-47a1-ab34-f93efbbe1dd6": {
+            "name": null,
+            "value": {
+                "data": [],
+                "type": "component-list"
+            }
+        }
+    },
+    "assets": {
+        "060db291-ddab-4d8b-adbd-09255372ec03": {
+            "name": "matros.png",
+            "type": "image"
+        },
+        "078235ca-2a78-42e4-8f62-a3a92b8fd9ee": {
+            "name": "Острова ночью.jpeg",
+            "type": "image"
+        },
+        "07de7ba5-b76f-4816-bdc1-f3f9dbdc7201": {
+            "name": "start_island_2.jpeg",
+            "type": "image"
+        },
+        "07f647da-375e-41ef-9c7e-3f067d7c25aa": {
+            "name": "Комната Даны 7_2.jpeg",
+            "type": "image"
+        },
+        "168d1fe3-cb02-47d9-a2dd-a52f981c02ad": {
+            "name": "Audio",
+            "children": [
+                "80e89436-1a12-4e34-9df1-7f3310ee5dd9"
+            ]
+        },
+        "18b50c77-fe1e-49f6-8ed2-60fe8f272268": {
+            "name": "marta.png",
+            "type": "image"
+        },
+        "343dad69-6005-415a-99ff-bfcfb3d36b7f": {
+            "name": "start_island.jpeg",
+            "type": "image"
+        },
+        "383f85c0-21ea-4235-9689-4f1e6032ae81": {
+            "name": "master.png",
+            "type": "image"
+        },
+        "392c6ff3-7b45-4791-bb7a-bb6ae46ce085": {
+            "name": "episode_1",
+            "children": [
+                "cbd7e847-db44-4742-a359-1346e7aee274",
+                "b49d4358-50e7-46a8-8633-4c1fd7d736b6"
+            ]
+        },
+        "3b2801c9-41cc-4681-aedb-a6da4f90e087": {
+            "name": "Seljanka.png",
+            "type": "image"
+        },
+        "3bb8d73f-2e92-43d6-9789-dab1602128fb": {
+            "name": "Airship landscape упавший дирижабль 8_3.jpeg",
+            "type": "image"
+        },
+        "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28": {
+            "name": "kitchen.png",
+            "type": "image"
+        },
+        "480257eb-5718-4613-8289-6ebce1b24d38": {
+            "name": "Вид на деревню ночь луна finale.png",
+            "type": "image"
+        },
+        "4a1a0f72-304c-4d06-b825-9fb15b1b5bf6": {
+            "name": "Straz.png",
+            "type": "image"
+        },
+        "5150d221-16c6-4c95-967d-51cbed93bd94": {
+            "name": "Locations",
+            "children": [
+                "9a33e9d6-8028-4c2e-bfa2-0d4702ec6f71"
+            ]
+        },
+        "5d711172-2d38-4e0b-bcc4-bbd7d06684c4": {
+            "name": "Marta.png",
+            "type": "image"
+        },
+        "5ea46624-b932-4f9f-b4c2-2268e2b8ba25": {
+            "name": "junga.png",
+            "type": "image"
+        },
+        "6205c96d-d50f-4dcf-9dbd-c52771da3b17": {
+            "name": "Дана ночь вид на острова.jpeg",
+            "type": "image"
+        },
+        "647d0495-341f-42b2-8788-b47dace22bf8": {
+            "root": true,
+            "children": [
+                "5150d221-16c6-4c95-967d-51cbed93bd94",
+                "74c592dc-aee9-474f-8b1b-0821becd616c",
+                "168d1fe3-cb02-47d9-a2dd-a52f981c02ad"
+            ]
+        },
+        "70d1c842-b85d-491b-8f97-4dab2f469f9e": {
+            "name": "capitan.png",
+            "type": "image"
+        },
+        "74c592dc-aee9-474f-8b1b-0821becd616c": {
+            "name": "Characters",
+            "children": [
+                "bc87afaf-7632-41f4-bf4e-a3f11a1131df",
+                "c21c0ff7-de4a-42c9-9a9d-218dcc6baaba"
+            ]
+        },
+        "75c20e07-30ca-497e-b95a-f2e0084482eb": {
+            "name": "selyanka.png",
+            "type": "image"
+        },
+        "80e89436-1a12-4e34-9df1-7f3310ee5dd9": {
+            "name": "Music",
+            "children": [
+                "392c6ff3-7b45-4791-bb7a-bb6ae46ce085"
+            ]
+        },
+        "87df63d0-649d-4807-aa3f-ced01500447d": {
+            "name": "Junga.png",
+            "type": "image"
+        },
+        "8c46c940-4611-456a-bc28-1941d868e195": {
+            "name": "Dana.png",
+            "type": "image"
+        },
+        "8e3044cc-23c2-4aec-8707-f83589c55708": {
+            "name": "Storeroom.png",
+            "type": "image"
+        },
+        "916ba014-5a0f-41ad-b9d4-ae6f990f2d10": {
+            "name": "straz.png",
+            "type": "image"
+        },
+        "9a33e9d6-8028-4c2e-bfa2-0d4702ec6f71": {
+            "name": "Episode 1",
+            "children": [
+                "8e3044cc-23c2-4aec-8707-f83589c55708",
+                "078235ca-2a78-42e4-8f62-a3a92b8fd9ee",
+                "07f647da-375e-41ef-9c7e-3f067d7c25aa",
+                "ee890ce1-254d-4673-9f0e-6d51757c03fa",
+                "ad8e44de-2fbf-4936-a1be-3c3fb8bfd219",
+                "c9fbd804-a7d1-4521-9385-58883d85b977",
+                "c0116fe5-b5c0-4909-a73c-727f794b3e92",
+                "f0d0d6d4-2ad7-443c-a802-568a628e1b48",
+                "6205c96d-d50f-4dcf-9dbd-c52771da3b17",
+                "480257eb-5718-4613-8289-6ebce1b24d38",
+                "c252f1a7-3af2-44bd-ae16-9e23166b6a3c",
+                "343dad69-6005-415a-99ff-bfcfb3d36b7f",
+                "b9fbf15a-fccd-40a6-9171-770a10768ff0",
+                "ebfa2c1a-10de-4db8-90fb-fb9652aea792",
+                "07de7ba5-b76f-4816-bdc1-f3f9dbdc7201",
+                "3f9737ea-1ffa-4768-ba52-7a39d9a6dc28",
+                "3bb8d73f-2e92-43d6-9789-dab1602128fb"
+            ]
+        },
+        "9a5b8c68-d0eb-4e3b-af14-f64e8df5fa4c": {
+            "name": "Master.png",
+            "type": "image"
+        },
+        "a58dfc40-cb65-493a-b78d-a7063d1dc68d": {
+            "name": "monk.png",
+            "type": "image"
+        },
+        "aa0dc357-52fa-4766-965b-62c70e9a5643": {
+            "name": "Mönch.png",
+            "type": "image"
+        },
+        "ad8e44de-2fbf-4936-a1be-3c3fb8bfd219": {
+            "name": "Дом Даны 5 bw latest.jpeg",
+            "type": "image"
+        },
+        "b49d4358-50e7-46a8-8633-4c1fd7d736b6": {
+            "name": "интро летающие острова вечер.mp3",
+            "type": "audio",
+            "volume": 1
+        },
+        "b9fbf15a-fccd-40a6-9171-770a10768ff0": {
+            "name": "start_island_4.jpeg",
+            "type": "image"
+        },
+        "bb666953-18c5-4b3d-a249-dfe371cc7a24": {
+            "name": "Kapitan.png",
+            "type": "image"
+        },
+        "bc87afaf-7632-41f4-bf4e-a3f11a1131df": {
+            "name": "rectangles",
+            "children": [
+                "916ba014-5a0f-41ad-b9d4-ae6f990f2d10",
+                "75c20e07-30ca-497e-b95a-f2e0084482eb",
+                "a58dfc40-cb65-493a-b78d-a7063d1dc68d",
+                "060db291-ddab-4d8b-adbd-09255372ec03",
+                "18b50c77-fe1e-49f6-8ed2-60fe8f272268",
+                "383f85c0-21ea-4235-9689-4f1e6032ae81",
+                "5ea46624-b932-4f9f-b4c2-2268e2b8ba25",
+                "70d1c842-b85d-491b-8f97-4dab2f469f9e",
+                "dc09fb98-9cf1-46c2-b4e4-2d6cec3c5a9d",
+                "f925c4ac-cc2a-46ff-ad6e-4e8bb3982baa"
+            ]
+        },
+        "c0116fe5-b5c0-4909-a73c-727f794b3e92": {
+            "name": "Деревня костёр день.jpeg",
+            "type": "image"
+        },
+        "c21c0ff7-de4a-42c9-9a9d-218dcc6baaba": {
+            "name": "original",
+            "children": [
+                "3b2801c9-41cc-4681-aedb-a6da4f90e087",
+                "aa0dc357-52fa-4766-965b-62c70e9a5643",
+                "f1f89f06-1c84-4374-a9d4-1670f86e8e51",
+                "9a5b8c68-d0eb-4e3b-af14-f64e8df5fa4c",
+                "5d711172-2d38-4e0b-bcc4-bbd7d06684c4",
+                "bb666953-18c5-4b3d-a249-dfe371cc7a24",
+                "8c46c940-4611-456a-bc28-1941d868e195",
+                "e0360756-52cb-4fc9-aba9-e13db89a0db1",
+                "87df63d0-649d-4807-aa3f-ced01500447d",
+                "4a1a0f72-304c-4d06-b825-9fb15b1b5bf6"
+            ]
+        },
+        "c252f1a7-3af2-44bd-ae16-9e23166b6a3c": {
+            "name": "Белка лежит 3.jpeg",
+            "type": "image"
+        },
+        "c9fbd804-a7d1-4521-9385-58883d85b977": {
+            "name": "Деревня костёр ночь.jpeg",
+            "type": "image"
+        },
+        "cbd7e847-db44-4742-a359-1346e7aee274": {
+            "name": "костер + вечер.mp3",
+            "type": "audio",
+            "volume": 1
+        },
+        "dc09fb98-9cf1-46c2-b4e4-2d6cec3c5a9d": {
+            "name": "burgermeister.png",
+            "type": "image"
+        },
+        "e0360756-52cb-4fc9-aba9-e13db89a0db1": {
+            "name": "Bürgermeister.png",
+            "type": "image"
+        },
+        "ebfa2c1a-10de-4db8-90fb-fb9652aea792": {
+            "name": "start_island_3.jpeg",
+            "type": "image"
+        },
+        "ee890ce1-254d-4673-9f0e-6d51757c03fa": {
+            "name": "Зелёные поля.jpeg",
+            "type": "image"
+        },
+        "f0d0d6d4-2ad7-443c-a802-568a628e1b48": {
+            "name": "Деревня днём без дирижабля 7.jpeg",
+            "type": "image"
+        },
+        "f1f89f06-1c84-4374-a9d4-1670f86e8e51": {
+            "name": "Matros.png",
+            "type": "image"
+        },
+        "f925c4ac-cc2a-46ff-ad6e-4e8bb3982baa": {
+            "name": "dana.png",
+            "type": "image"
+        }
+    },
+    "variables": {
+        "747d0495-341f-42b2-8788-b47dace22bf8": {
+            "root": true,
+            "children": []
+        }
+    },
+    "conditions": {},
+    "name": "Dana's Quest",
+    "cover": null
+}
