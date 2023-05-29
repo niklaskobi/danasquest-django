@@ -6,15 +6,16 @@ from pathlib import Path
 import environ
 import os
 
-ROOT_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
-# danasquest/
-APPS_DIR = ROOT_DIR / "danasquest"
+BASE_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
+# gptbot/
+APPS_DIR = BASE_DIR / "danasquest"
 env = environ.Env()
 
-READ_DOT_ENV_FILE = env.bool("DJANGO_READ_DOT_ENV_FILE", default=False)
+READ_DOT_ENV_FILE = env.bool("DJANGO_READ_DOT_ENV_FILE", default=True)
 if READ_DOT_ENV_FILE:
     # OS environment variables take precedence over variables from .env
-    env.read_env(str(ROOT_DIR / ".env"))
+    env.read_env(str(BASE_DIR / ".env"))
+
 
 # GENERAL
 # ------------------------------------------------------------------------------
@@ -34,13 +35,13 @@ USE_I18N = True
 # https://docs.djangoproject.com/en/dev/ref/settings/#use-tz
 USE_TZ = True
 # https://docs.djangoproject.com/en/dev/ref/settings/#locale-paths
-LOCALE_PATHS = [str(ROOT_DIR / "locale")]
+LOCALE_PATHS = [str(BASE_DIR / "locale")]
 
 # DATABASES
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
-# DATABASES = {"default": env.db("DATABASE_URL")}
-# DATABASES["default"]["ATOMIC_REQUESTS"] = True
+DATABASES = {"default": env.db("DATABASE_URL")}
+DATABASES["default"]["ATOMIC_REQUESTS"] = True
 
 # ------------------------------------------------------------------
 # From https://cloud.google.com/python/django/appengine#console_3
@@ -48,13 +49,13 @@ LOCALE_PATHS = [str(ROOT_DIR / "locale")]
 # [START db_setup]
 # [START gaestd_py_django_database_config]
 # Use django-environ to parse the connection string
-DATABASES = {"default": env.db()}
+# DATABASES = {"default": env.db()}
 # If the flag as been set, configure to use proxy
-if os.getenv("USE_CLOUD_SQL_AUTH_PROXY", None):
-    DATABASES["default"]["HOST"] = "127.0.0.1"
-    DATABASES["default"]["PORT"] = 5432
-    DATABASES["default"]["USER"] = "postgres"
-    DATABASES["default"]["PASSWORD"] = "1Uj&QaR/vG<k=Ef{"
+# if os.getenv("USE_CLOUD_SQL_AUTH_PROXY", None):
+#     DATABASES["default"]["HOST"] = "127.0.0.1"
+#     DATABASES["default"]["PORT"] = 5432
+#     DATABASES["default"]["USER"] = "postgres"
+#     DATABASES["default"]["PASSWORD"] = "1Uj&QaR/vG<k=Ef{"
 # ------------------------------------------------------------------
 
 
@@ -155,7 +156,7 @@ MIDDLEWARE = [
 # STATIC
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#static-root
-STATIC_ROOT = str(ROOT_DIR / "staticfiles")
+STATIC_ROOT = str(BASE_DIR / "staticfiles")
 # https://docs.djangoproject.com/en/dev/ref/settings/#static-url
 STATIC_URL = "/static/"
 # https://docs.djangoproject.com/en/dev/ref/contrib/staticfiles/#std:setting-STATICFILES_DIRS
