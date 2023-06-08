@@ -19,12 +19,12 @@ urlpatterns = [
     path("users/", include("danasquest.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     path("firestore/", include('danasquest.firestore.urls')),
-    # Your stuff: custom urls includes go here
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]
 
 
 if settings.DEBUG:
     # This allows the error pages to be debugged during development, just visit
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
     # these url in browser to see how these error pages look like.
     urlpatterns += [
         path(

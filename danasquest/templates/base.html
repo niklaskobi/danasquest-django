@@ -39,7 +39,7 @@
 
 </head>
 
-<body style="background-image: url({{ urls.background }});">
+<body style="background-image: url({{ assets.background.url }});">
 {#<div class="menu">#}
 {#  <button>Start</button>#}
 {#  <button>Load</button>#}
@@ -48,11 +48,21 @@
 <button class="side-button-0">Book</button>
 <button class="side-button-1">Menu</button>
 
-<img src={{ urls.char_left }} class="character character-left">
-<img src={{ urls.char_right }} class="character character-right">
+{#{% if document.audio_file %}#}
+{#  <audio controls>#}
+{#    <source src="{{ document.audio_file.url }}" type="audio/mpeg">#}
+{#    Your browser does not support the audio element.#}
+{#  </audio>#}
+{#{% else %}#}
+{#  <p>No audio file has been uploaded for this document.</p>#}
+{#{% endif %}#}
+
+<img src={{ assets.char_left }} class="character character-left">
+<img src={{ assets.char_right }} class="character character-right">
 <div class="dialogue">
   <p id="dialogue-text">Hello, this is the dialogue text...</p>
 </div>
+</body>
 </body>
 
 </html>
