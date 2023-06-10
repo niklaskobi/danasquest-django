@@ -39,7 +39,7 @@
 
 </head>
 
-<body style="background-image: url({{ assets.background.url }});">
+<body style="background-image: url({{ assets.background.file.url }});">
 {#<div class="menu">#}
 {#  <button>Start</button>#}
 {#  <button>Load</button>#}
@@ -48,19 +48,40 @@
 <button class="side-button-0">Book</button>
 <button class="side-button-1">Menu</button>
 
-{#{% if document.audio_file %}#}
-{#  <audio controls>#}
-{#    <source src="{{ document.audio_file.url }}" type="audio/mpeg">#}
-{#    Your browser does not support the audio element.#}
-{#  </audio>#}
-{#{% else %}#}
-{#  <p>No audio file has been uploaded for this document.</p>#}
-{#{% endif %}#}
+{% if assets.audio %}
+  {% for audio_asset in assets.audio %}
+    {#    Enable audio controls for sound engineers #}
+    {#    <audio id="{{ audio_asset.id }}" controls>#}
+    {#    <audio id="audio-{{ audio_asset.id }} autoplay muted">#}
+    <audio id="audio-{{ audio_asset.id }}">
+      <source src="{{ audio_asset.file.url }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <button onclick="playAudio('audio-{{ audio_asset.id }}')">Play</button>
+    <button onclick="pauseAudio('audio-{{ audio_asset.id }}')">Pause</button>
+  {% endfor %}
+{% endif %}
+
+<script>
+  function playAudio(id) {
+    let audio = document.getElementById(id);
+    audio.play();
+    audio.onended = function () {
+      audio.play();
+    }
+  }
+
+  function pauseAudio(id) {
+    let audio = document.getElementById(id);
+    audio.pause();
+  }
+
+</script>
 
 <img src={{ assets.char_left }} class="character character-left">
 <img src={{ assets.char_right }} class="character character-right">
 <div class="dialogue">
-  <p id="dialogue-text">Hello, this is the dialogue text...</p>
+  <p id="dialogue-text">{{ content|safe }}</p>
 </div>
 </body>
 </body>
