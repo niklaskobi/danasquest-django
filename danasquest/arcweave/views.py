@@ -32,22 +32,38 @@ def get_asset_by_id(project, id):
 
 def get_audio_assets_from_element(element, project):
     audio_assets = []
-    for audio in element["assets"]["audio"]:
-        audio_assets.append(get_asset_by_id(project, audio['asset']))
+    if element.get("assets").get("audio") is not None:
+        for audio in element["assets"]["audio"]:
+            audio_assets.append(get_asset_by_id(project, audio['asset']))
     return audio_assets
 
+
+def get_connections_from_element(element, project):
+    connections = []
+    for id in element["outputs"]:
+        next_element = project.json.get("connections").get(id)
+        connections.append({"label": next_element.get("label"), "target_id": next_element["targetid"]})
+    return connections
 
 # Create your views here.
 def view_import(request):
     project = ArcweaveProject.objects.filter().first()
-    root_board = get_board_by_name(project.json, "Root")
-    start_board = get_board_by_id(project.json, root_board["children"][0])
-    starting_element = get_starting_element(project.json)
-    cover = get_cover_asset_from_element(starting_element, project)
-    audio_list = get_audio_assets_from_element(starting_element, project)
+    payload = get_payload(project, project.json.get("startingElement"))
+
+    # return render(request, 'arcweave/page.html', payload)
+    return render(request, 'base.html', payload)
+
+
+def get_payload(project, element_id):
+    element = project.json["elements"][element_id]
+    cover = get_cover_asset_from_element(element, project)
+    audio_list = get_audio_assets_from_element(element, project)
+    connections = get_connections_from_element(element, project)
     payload = {
+        'project_id': project.id,
         'title': 'Import',
-        'content': starting_element["content"],
+        'content': element["content"],
+        'connections': connections,
         'assets': {
             'background': cover,
             'audio': audio_list,
@@ -55,9 +71,15 @@ def view_import(request):
             'char_right': '../static/arcweave/danas-quest-2023-05-17-130459/assets/Characters/original/Marta.png',
         }
     }
+    return payload
 
-    # return render(request, 'arcweave/page.html', payload)
-    return render(request, 'base.html', payload)
+
+def next_element(request, project_id):
+
+    if request.method == 'POST':
+        project = ArcweaveProject.objects.get(id=project_id)
+        payload = get_payload(project, request.POST.get("target_id"))
+        return render(request, 'game/dialogue.html', payload)
 
 
 def view_import_backup(request):
