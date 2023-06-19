@@ -42,8 +42,10 @@ def get_connections_from_element(element, project):
     connections = []
     for id in element["outputs"]:
         next_element = project.json.get("connections").get(id)
-        connections.append({"label": next_element.get("label"), "target_id": next_element["targetid"]})
+        connections.append({"label": next_element.get("label"),
+                            "target_id": next_element["targetid"]})
     return connections
+
 
 # Create your views here.
 def view_import(request):
@@ -54,16 +56,27 @@ def view_import(request):
     return render(request, 'base.html', payload)
 
 
-def get_payload(project, element_id):
+def has_other_assets(element_old, element_new):
+    # check covers
+    if element_old["assets"]["cover"]["id"] != element_new["assets"]["cover"]["id"]:
+        return True
+    # check assets
+    if sorted(element_old["components"]) != sorted(element_new["components"]):
+        return True
+    # we don't check audio assets, because they are handled separately
+    return False
+
+
+def get_payload(project, element_id, prev_element_id=None):
     element = project.json["elements"][element_id]
     cover = get_cover_asset_from_element(element, project)
     audio_list = get_audio_assets_from_element(element, project)
     connections = get_connections_from_element(element, project)
     payload = {
         'project_id': project.id,
-        'title': 'Import',
         'content': element["content"],
         'connections': connections,
+        'element_id': element_id,
         'assets': {
             'background': cover,
             'audio': audio_list,
@@ -75,11 +88,18 @@ def get_payload(project, element_id):
 
 
 def next_element(request, project_id):
-
     if request.method == 'POST':
         project = ArcweaveProject.objects.get(id=project_id)
         payload = get_payload(project, request.POST.get("target_id"))
-        return render(request, 'game/dialogue.html', payload)
+        # new
+        prev_element_id = request.POST.get("current_id")
+        prev_element = get_element_by_id(project.json, prev_element_id)
+        element = get_element_by_id(project.json, request.POST.get("target_id"))
+        update_whole_scene = has_other_assets(prev_element, element)
+        if update_whole_scene:
+            return render(request, 'game/body.html', payload)
+        else:
+            return render(request, 'game/dialogue.html', payload)
 
 
 def view_import_backup(request):

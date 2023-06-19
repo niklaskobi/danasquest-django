@@ -3,14 +3,16 @@
 <form method="post"
       action="{% url 'next_element' project_id %}"
       hx-post="{% url 'next_element' project_id %}"
-      hx-swap="outerHTML"
-  {#        style="border: 2px solid #000; border-radius: 10px; padding: 20px; margin-top: 20px; margin-bottom: 20px"#}
+      hx-swap="innerHTML"
+      hx-target="{% if update_whole_scene %}#game_body{% else %}this{% endif %}"
       enctype="multipart/form-data">
   {% csrf_token %}
+
   <div class="dialogue">
     <p id="dialogue-text">{{ content|safe }}</p>
     {% if connections|length == 1 %}
       <input type="hidden" name="target_id" value="{{ connections.0.target_id }}">
+      <input type="hidden" name="current_id" value="{{ element_id }}">
       <input type="submit" value={% trans "Next" %} class="button" style="margin-right: 10px">
     {% else %}
       {% for connection in connections %}
@@ -19,6 +21,6 @@
       {% endfor %}
     {% endif %}
   </div>
-</form>
 
+</form>
 
