@@ -92,7 +92,6 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "danasquest.users",
-    "danasquest.firestore",
     "danasquest.arcweave",
 
 ]

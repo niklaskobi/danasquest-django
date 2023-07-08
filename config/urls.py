@@ -18,7 +18,6 @@ urlpatterns = [
     # User management
     path("users/", include("danasquest.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
-    path("firestore/", include('danasquest.firestore.urls')),
     path("game/", include('danasquest.arcweave.urls')),
 ]
 
