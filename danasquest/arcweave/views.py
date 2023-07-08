@@ -2,20 +2,20 @@ from django.shortcuts import render
 
 from danasquest.arcweave.models import ArcweaveProject
 from danasquest.arcweave.parse import get_element_by_id, get_cover_asset_from_element, get_audio_assets_from_element, \
-    get_connections_from_element, has_other_assets
+    get_connections_from_element, have_different_assets
 
 
 # Create your views here.
 def view_import(request):
     project = ArcweaveProject.objects.filter().first()
-    payload = get_payload(project, project.json.get("startingElement"))
+    element = get_element_by_id(project.json, project.json.get("startingElement"))
+    payload = get_payload(project, element, project.json.get("startingElement"))
 
     # return render(request, 'arcweave/page.html', payload)
     return render(request, 'base.html', payload)
 
 
-def get_payload(project, element_id, prev_element_id=None):
-    element = project.json["elements"][element_id]
+def get_payload(project, element, element_id):
     cover = get_cover_asset_from_element(element, project)
     audio_list = get_audio_assets_from_element(element, project)
     connections = get_connections_from_element(element, project)
@@ -36,13 +36,15 @@ def get_payload(project, element_id, prev_element_id=None):
 
 def next_element(request, project_id):
     if request.method == 'POST':
+        #todo save project in the
         project = ArcweaveProject.objects.get(id=project_id)
-        payload = get_payload(project, request.POST.get("target_id"))
+        element = get_element_by_id(project.json, request.POST.get("target_id"))
+        payload = get_payload(project, element, request.POST.get("target_id"))
         # new
         prev_element_id = request.POST.get("current_id")
+        # todo: use postgres json commands instead of loading the whole json each time
         prev_element = get_element_by_id(project.json, prev_element_id)
-        element = get_element_by_id(project.json, request.POST.get("target_id"))
-        update_whole_scene = has_other_assets(prev_element, element)
+        update_whole_scene = have_different_assets(prev_element, element)
         if update_whole_scene:
             return render(request, 'game/body.html', payload)
         else:

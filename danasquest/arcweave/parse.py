@@ -15,12 +15,25 @@ def get_starting_element(data):
 
 
 def get_element_by_id(data, id):
-    return data["elements"][id]
+    """
+    This function retrieves an element from a provided data structure by its ID, first attempting to access it directly
+    from the 'elements' section, then if unsuccessful, by using a jumper's 'elementId' found in the 'jumpers' section.
+    """
+    element = data["elements"].get(id)
+    if element is not None:
+        return data["elements"][id]
+    else:
+        jumper = data["jumpers"].get(id)
+        return get_element_by_id(data, jumper['elementId'])
 
 
 def get_cover_asset_from_element(element, project):
-    id = element["assets"]["cover"]["id"]
-    return get_asset_by_id(project, id)
+    try:
+        id = element["assets"]["cover"]["id"]
+        return get_asset_by_id(project, id)
+    except KeyError:
+        return None
+
 
 
 def get_asset_by_id(project, id):
@@ -30,11 +43,12 @@ def get_asset_by_id(project, id):
 
 def get_audio_assets_from_element(element, project):
     audio_assets = []
-    if element.get("assets").get("audio") is not None:
+    try:
         for audio in element["assets"]["audio"]:
             audio_assets.append(get_asset_by_id(project, audio['asset']))
-    return audio_assets
-
+        return audio_assets
+    except KeyError:
+        return None
 
 def get_connections_from_element(element, project):
     connections = []
@@ -45,12 +59,13 @@ def get_connections_from_element(element, project):
     return connections
 
 
-def has_other_assets(element_old, element_new):
-    # check covers
-    if element_old["assets"]["cover"]["id"] != element_new["assets"]["cover"]["id"]:
-        return True
-    # check assets
-    if sorted(element_old["components"]) != sorted(element_new["components"]):
-        return True
-    # we don't check audio assets, because they are handled separately
-    return False
+def have_different_assets(element_old, element_new):
+    try:
+        # check covers
+        if element_old["assets"]["cover"]["id"] != element_new["assets"]["cover"]["id"]:
+            # check assets
+            # we don't check audio assets, because they are handled separately
+            if sorted(element_old["components"]) != sorted(element_new["components"]):
+                return True
+    except KeyError:
+        return False
