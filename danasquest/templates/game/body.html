@@ -1,48 +1,44 @@
-<div id="game_body"
-  {% if assets.background.file.url %}
-     style="background-image: url({{ assets.background.file.url }});
-       height: 100vh;
-       background-size: cover;
-       background-position: center center;
-       background-repeat: no-repeat;"
-  {% else %}
-     style="background-color: #000000;
+<body
+  style="{% if assets.background.file.url %}background-image: url({{ assets.background.file.url }});
+  {% else %}background-color: #000000;{% endif %}
     height: 100vh;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;">
+<div id="game_body">
+  <!-- Your content here -->
+  {#<div class="menu">#}
+  {#  <button>Start</button>#}
+  {#  <button>Load</button>#}
+  {#  <button>Settings</button>#}
+  {#</div>#}
+  <button class="side-button-0">Book</button>
+  <button class="side-button-1">Menu</button>
+
+  {#{% if assets.audio %}#}
+  {#  {% for audio_asset in assets.audio %}#}
+  {#    Enable audio controls for sound engineers #}
+  {#    <audio id="{{ audio_asset.id }}" controls>#}
+  {#    <audio id="audio-{{ audio_asset.id }} autoplay muted">#}
+  {#    <audio id="audio-{{ audio_asset.id }}">#}
+  {#      <source src="{{ audio_asset.file.url }}" type="audio/mpeg">#}
+  {#      Your browser does not support the audio element.#}
+  {#    </audio>#}
+  {#    <button onclick="playAudio('audio-{{ audio_asset.id }}')">Play</button>#}
+  {#    <button onclick="pauseAudio('audio-{{ audio_asset.id }}')">Pause</button>#}
+  {#  {% endfor %}#}
+  {#{% endif %}#}
+
+  {% if assets.char_left %}
+    <img src="{{ assets.char_left.file.url }}" class="character character-left" alt="character-left">
   {% endif %}
->
-<body>
-<!-- Your content here -->
-{#<div class="menu">#}
-{#  <button>Start</button>#}
-{#  <button>Load</button>#}
-{#  <button>Settings</button>#}
-{#</div>#}
-<button class="side-button-0">Book</button>
-<button class="side-button-1">Menu</button>
+  {% if assets.char_right %}
+    <img src="{{ assets.char_right.file.url }}" class="character character-right" alt="character-right">
+  {% endif %}
 
-{#{% if assets.audio %}#}
-{#  {% for audio_asset in assets.audio %}#}
-{#    Enable audio controls for sound engineers #}
-{#    <audio id="{{ audio_asset.id }}" controls>#}
-{#    <audio id="audio-{{ audio_asset.id }} autoplay muted">#}
-{#    <audio id="audio-{{ audio_asset.id }}">#}
-{#      <source src="{{ audio_asset.file.url }}" type="audio/mpeg">#}
-{#      Your browser does not support the audio element.#}
-{#    </audio>#}
-{#    <button onclick="playAudio('audio-{{ audio_asset.id }}')">Play</button>#}
-{#    <button onclick="pauseAudio('audio-{{ audio_asset.id }}')">Pause</button>#}
-{#  {% endfor %}#}
-{#{% endif %}#}
+  <div id="game_dialogue">
+    {% include 'game/dialogue.html' %}
+  </div>
 
-<img src={{ assets.char_left }} class="character character-left">
-<img src={{ assets.char_right }} class="character character-right">
-
-<div id="game_dialogue">
-  {% include 'game/dialogue.html' %}
 </div>
-
 </body>
-</div>

@@ -35,6 +35,19 @@ def get_cover_asset_from_element(element, project):
         return None
 
 
+def get_image_assets_from_element(element, project):
+    image_assets = []
+    for component_id in element['components']:
+        component = get_component_by_id(project, component_id)
+        asset_id = component['assets']['cover']['id']
+        image_assets.append(get_asset_by_id(project, asset_id))
+    return image_assets
+
+
+def get_component_by_id(project, component_id):
+    return project.json['components'][component_id]
+
+
 def get_asset_by_id(project, id):
     asset_name = project.json["assets"][id]["name"]
     return AssetFile.objects.get(project=project, name=asset_name)
