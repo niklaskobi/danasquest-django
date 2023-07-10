@@ -1,10 +1,18 @@
 <div id="game_body"
+  {% if assets.background.file.url %}
      style="background-image: url({{ assets.background.file.url }});
        height: 100vh;
        background-size: cover;
        background-position: center center;
-       background-repeat: no-repeat;">
-{#  <body style="background-image: url({{ assets.background.file.url }});">#}
+       background-repeat: no-repeat;"
+  {% else %}
+     style="background-color: #000000;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;">
+  {% endif %}
+>
 <body>
 <!-- Your content here -->
 {#<div class="menu">#}
@@ -17,9 +25,9 @@
 
 {#{% if assets.audio %}#}
 {#  {% for audio_asset in assets.audio %}#}
-    {#    Enable audio controls for sound engineers #}
-    {#    <audio id="{{ audio_asset.id }}" controls>#}
-    {#    <audio id="audio-{{ audio_asset.id }} autoplay muted">#}
+{#    Enable audio controls for sound engineers #}
+{#    <audio id="{{ audio_asset.id }}" controls>#}
+{#    <audio id="audio-{{ audio_asset.id }} autoplay muted">#}
 {#    <audio id="audio-{{ audio_asset.id }}">#}
 {#      <source src="{{ audio_asset.file.url }}" type="audio/mpeg">#}
 {#      Your browser does not support the audio element.#}

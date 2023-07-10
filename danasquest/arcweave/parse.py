@@ -35,7 +35,6 @@ def get_cover_asset_from_element(element, project):
         return None
 
 
-
 def get_asset_by_id(project, id):
     asset_name = project.json["assets"][id]["name"]
     return AssetFile.objects.get(project=project, name=asset_name)
@@ -49,6 +48,7 @@ def get_audio_assets_from_element(element, project):
         return audio_assets
     except KeyError:
         return None
+
 
 def get_connections_from_element(element, project):
     connections = []
@@ -68,4 +68,5 @@ def have_different_assets(element_old, element_new):
             if sorted(element_old["components"]) != sorted(element_new["components"]):
                 return True
     except KeyError:
-        return False
+        return True
+    return False
