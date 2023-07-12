@@ -1,4 +1,5 @@
 {% load i18n %}
+{% load striphtml %}
 
 <form method="post"
       action="{% url 'next_element' project_id %}"
@@ -16,7 +17,9 @@
       <input type="submit" value={% trans "Next" %} class="button" style="margin-right: 10px">
     {% else %}
       {% for connection in connections %}
-        <input type="submit" value="{{ connection.target_id }}" name="{{ connection.label }}" class="button"
+        <input type="hidden" name="current_id" value="{{ element_id }}">
+        <input type="hidden" name="target_id" value="{{ connection.target_id }}">
+        <input type="submit" value="{{ connection.label|striphtml }}" class="button"
                style="margin-right: 10px">
       {% endfor %}
     {% endif %}

@@ -4,9 +4,8 @@ from danasquest.arcweave.models import ArcweaveProject
 from danasquest.arcweave.parse import get_element_by_id, get_cover_asset_from_element, get_audio_assets_from_element, \
     get_connections_from_element, have_different_assets, get_image_assets_from_element
 
+DEBUG_STARTING_ELEMENT = '0e1fde1e-1914-496f-b99d-8332466d792c'  # first appearance of characters and answer options
 
-# DEBUG_STARTING_ELEMENT = '791c60c7-6cb2-40ba-8c79-4f629c2fc206'
-DEBUG_STARTING_ELEMENT = '0e1fde1e-1914-496f-b99d-8332466d792c'
 
 # Create your views here.
 def view_import(request):
@@ -17,7 +16,6 @@ def view_import(request):
         element = get_element_by_id(project.json, project.json.get("startingElement"))
     payload = get_payload(project, element, project.json.get("startingElement"))
 
-    # return render(request, 'arcweave/page.html', payload)
     return render(request, 'base.html', payload)
 
 
@@ -45,7 +43,7 @@ def get_payload(project, element, element_id):
 
 def next_element(request, project_id):
     if request.method == 'POST':
-        #todo save project in the
+        # todo save project in the cookies or in cache?
         project = ArcweaveProject.objects.get(id=project_id)
         element = get_element_by_id(project.json, request.POST.get("target_id"))
         payload = get_payload(project, element, request.POST.get("target_id"))
@@ -58,17 +56,3 @@ def next_element(request, project_id):
             return render(request, 'game/body.html', payload)
         else:
             return render(request, 'game/dialogue.html', payload)
-
-
-def view_import_backup(request):
-    payload = {
-        'title': 'Import',
-        'urls': {
-            'background': '../static/arcweave/danas-quest-2023-05-17-130459/assets/Locations/Episode_1/kitchen.png',
-            'char_left': '../static/arcweave/danas-quest-2023-05-17-130459/assets/Characters/original/Dana.png',
-            'char_right': '../static/arcweave/danas-quest-2023-05-17-130459/assets/Characters/original/Marta.png',
-        }
-    }
-
-    # return render(request, 'arcweave/page.html', payload)
-    return render(request, 'base.html', payload)
