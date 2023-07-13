@@ -76,10 +76,12 @@ def have_different_assets(element_old, element_new):
     try:
         # check covers
         if element_old["assets"]["cover"]["id"] != element_new["assets"]["cover"]["id"]:
-            # check assets
-            # we don't check audio assets, because they are handled separately
-            if sorted(element_old["components"]) != sorted(element_new["components"]):
-                return True
+            return True
+        # check assets
+        if sorted(element_old["components"]) != sorted(element_new["components"]):
+            return True
+        # we don't check audio assets, because they are handled separately
     except KeyError:
+        # if some of the elements is missing
         return True
     return False
