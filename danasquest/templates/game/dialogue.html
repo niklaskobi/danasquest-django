@@ -11,18 +11,15 @@
 
   <div class="dialogue">
     <p id="dialogue-text">{{ content|safe }}</p>
-    {% if connections|length == 1 %}
-      <input type="hidden" name="target_id" value="{{ connections.0.target_id }}">
-      <input type="hidden" name="current_id" value="{{ element_id }}">
-      <input type="submit" value={% trans "Next" %} class="button" style="margin-right: 10px">
-    {% else %}
-      {% for connection in connections %}
-        <input type="hidden" name="current_id" value="{{ element_id }}">
-        <input type="hidden" name="target_id" value="{{ connection.target_id }}">
-        <input type="submit" value="{{ connection.label|striphtml }}" class="button"
-               style="margin-right: 10px">
-      {% endfor %}
-    {% endif %}
+    {% for connection in connections %}
+      <input type="hidden" name="target_id_{{ forloop.counter0 }}" value="{{ connection.target_id }}">
+      <input type="submit" value=
+        {% if not connection.label %} {% trans "Next" %}
+        {% else %} "{{ connection.label|striphtml }}" {% endif %}
+             class="button"
+             name="submit_{{ forloop.counter0 }}" style="margin-right: 10px">
+    {% endfor %}
+    <input type="hidden" name="current_id" value="{{ element_id }}">
   </div>
 
 </form>

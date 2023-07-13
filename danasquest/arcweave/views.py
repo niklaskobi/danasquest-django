@@ -3,8 +3,11 @@ from django.shortcuts import render
 from danasquest.arcweave.models import ArcweaveProject
 from danasquest.arcweave.parse import get_element_by_id, get_cover_asset_from_element, get_audio_assets_from_element, \
     get_connections_from_element, have_different_assets, get_image_assets_from_element
+from danasquest.arcweave.utils import get_target_id
 
-DEBUG_STARTING_ELEMENT = '0e1fde1e-1914-496f-b99d-8332466d792c'  # first appearance of characters and answer options
+DEBUG_STARTING_ELEMENT = False
+# DEBUG_STARTING_ELEMENT = '0e1fde1e-1914-496f-b99d-8332466d792c'  # first appearance of characters and answer options
+# DEBUG_STARTING_ELEMENT = '7e42da2c-c20f-4a76-97c6-d0bb95b50fc6'  # last tile before scene change
 
 
 # Create your views here.
@@ -44,11 +47,14 @@ def get_payload(project, element, element_id):
 def next_element(request, project_id):
     if request.method == 'POST':
         # todo save project in the cookies or in cache?
+
         project = ArcweaveProject.objects.get(id=project_id)
-        element = get_element_by_id(project.json, request.POST.get("target_id"))
-        payload = get_payload(project, element, request.POST.get("target_id"))
-        # new
+        next_element_id = get_target_id(request.POST)
         prev_element_id = request.POST.get("current_id")
+
+        element = get_element_by_id(project.json, next_element_id)
+        payload = get_payload(project, element, next_element_id)
+
         # todo: use postgres json commands instead of loading the whole json each time
         prev_element = get_element_by_id(project.json, prev_element_id)
         update_whole_scene = have_different_assets(prev_element, element)
